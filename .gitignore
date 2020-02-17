@@ -14,5 +14,5 @@ yarn-error.log
 /nbproject/private/
 /nbproject/*
 /composer.lock
-/.idea/php.xml
+/.idea
 /public/img/*

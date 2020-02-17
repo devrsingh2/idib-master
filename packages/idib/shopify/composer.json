@@ -1,0 +1,13 @@
+{
+    "name": "idib/shopify",
+    "description": "Shopify package for Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "devrsingh2",
+            "email": "rsingh2@katalysttech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

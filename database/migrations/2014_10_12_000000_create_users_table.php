@@ -20,10 +20,13 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->boolean('status')->default(true);
+            $table->boolean('account_status')->default(false);
             $table->enum('email_verified', ['0', '1', '2'])
-                ->default('1')
+                ->default('0')
                 ->comment('0=> Inactive, 1=> Active, 2=> Blocked');
+            $table->text('activation_code')->nullable();
+            $table->boolean('isAdmin')->default(false);
+            $table->enum('user_type', [1, 2])->default(2);
             $table->rememberToken();
             $table->timestamps();
         });

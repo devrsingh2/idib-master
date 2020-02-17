@@ -3,6 +3,7 @@
 <head>
     @include('website.includes.head')
     <script src="{{ asset('website-assets/js/preloader.js') }}"></script>
+    @toastr_css
 </head>
 <body>
 <div class="body-wrapper">
@@ -36,5 +37,6 @@
 <!-- Custom js for this page-->
 <script src="{{ asset('website-assets/js/dashboard.js') }}"></script>
 <!-- End custom js for this page-->
+@toastr_js
 </body>
 </html>

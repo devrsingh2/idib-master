@@ -27,14 +27,14 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = RouteServiceProvider::HOME;
+//    protected $redirectTo = RouteServiceProvider::HOME;
 
     protected function redirectTo()
     {
-        if (auth()->user()->role == 'admin') {
-            return '/admin';
+        if (auth()->user()->isAdmin) {
+            return route('admin.dashboard');
         }
-        return '/home';
+        return route('home');;
     }
 
     /**
@@ -67,12 +67,23 @@ class LoginController extends Controller
         ]);
 
         $fieldType = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
-dd($fieldType);
+
         if (auth()->attempt(array($fieldType => $request->username, 'password' => $request->password))) {
-            return redirect()->route('home');
+            $user = auth()->user();
+            toastr()->success('You are logged in successfully!');
+            if ($user->isAdmin) {
+                return redirect()->route('admin.dashboard');
+            }
+            else {
+                return redirect()->route('user.dashboard');
+            }
         } else {
-            return redirect()->route('login')
-                ->with('error','Email-Address And Password Are Wrong.');
+            $variable = "Email";
+            if ($fieldType == 'username') {
+                $variable = "Username";
+            }
+            toastr()->error($variable. ' or password is incorrect.');
+            return redirect()->route('login');
         }
     }
 

@@ -3,6 +3,7 @@
 <head>
     @include('website.includes.head')
     <script src="{{ asset('website-assets/js/preloader.js') }}"></script>
+    @toastr_css
     @yield('header')
 </head>
 <body>
@@ -18,5 +19,6 @@
 <script src="{{ asset('website-assets/js/material.js') }}"></script>
 <script src="{{ asset('website-assets/js/misc.js') }}"></script>
 <!-- endinject -->
+@toastr_js
 </body>
 </html>

@@ -3,7 +3,8 @@
     <style>
         .invalid-feedback {
             width: 260px;
-            color: #ff0000
+            color: #ff0000;
+            font-size: 12px;
         }
     </style>
 @endsection
@@ -15,6 +16,7 @@
                     <div class="stretch-card mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-1-tablet"></div>
                     <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-6-tablet">
                         <div class="mdc-card">
+                            <h4 class="justify-content-center">Login To Your Account</h4>
                             @error('username')
                             <div class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></div>
                             @enderror
@@ -83,6 +85,9 @@
                                             <button type="submit" class="mdc-button mdc-button--raised w-100">
                                                 Login
                                             </button>
+                                        </div>
+                                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12 justify-content-center">
+                                            <a href="{{ route('register') }}">Create Your Account Here</a>
                                         </div>
                                     </div>
                                 </div>
