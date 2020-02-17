@@ -38,13 +38,13 @@
                     <div class="mdc-expansion-panel" id="ui-sub-menu">
                         <nav class="mdc-list mdc-drawer-submenu">
                             <div class="mdc-list-item mdc-drawer-item">
-                                <a class="mdc-drawer-link" href="pages/ui-features/buttons.html">
-                                    Buttons
+                                <a class="mdc-drawer-link" href="{{ route('admin.fabrics', [1]) }}">
+                                    Fabrics
                                 </a>
                             </div>
                             <div class="mdc-list-item mdc-drawer-item">
-                                <a class="mdc-drawer-link" href="pages/ui-features/typography.html">
-                                    Typography
+                                <a class="mdc-drawer-link" href="{{ '#' }}">
+                                    Accent
                                 </a>
                             </div>
                         </nav>

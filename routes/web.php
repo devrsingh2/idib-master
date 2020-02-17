@@ -24,7 +24,13 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/dashboard', 'AdminController@dashboard')->name('admin.dashboard');
 
     Route::get('/products', 'ProductController@index')->name('admin.products');
+
     Route::get('/orders', 'OrderController@index')->name('admin.orders');
+
+    //fabrics
+    Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');
+    Route::get('/{id}/fabrics/add', 'FabricController@addFabric')->name('admin.fabrics.add');
+
 
     Route::get('/profile', 'UserController@profile')->name('admin.profile');
     Route::post('/update-profile', 'UserController@updateProfile')->name('admin.profile.update');
