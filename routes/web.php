@@ -27,6 +27,10 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
 
     Route::get('/orders', 'OrderController@index')->name('admin.orders');
 
+    //categories
+    Route::get('/{id}/categories', 'CategoryController@index')->name('admin.categories');
+    Route::get('/{id}/categories/add', 'CategoryController@addCategory')->name('admin.categories.add');
+
     //fabrics
     Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');
     Route::get('/{id}/fabrics/add', 'FabricController@addFabric')->name('admin.fabrics.add');
