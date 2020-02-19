@@ -4,6 +4,7 @@
     @include('admin.includes.head')
     <script src="{{ asset('website-assets/js/preloader.js') }}"></script>
     @toastr_css
+    @yield('header')
 </head>
 <body>
 <div class="body-wrapper">
@@ -38,5 +39,6 @@
 <script src="{{ asset('website-assets/js/dashboard.js') }}"></script>
 <!-- End custom js for this page-->
 @toastr_js
+@yield('footer')
 </body>
 </html>
