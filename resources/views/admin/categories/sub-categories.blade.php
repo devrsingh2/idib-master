@@ -7,12 +7,15 @@
                 <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
                     <div class="mdc-card p-0">
                         <div class="col-12 row">
-                            <h6 style="float: left;" class="card-title card-padding mb-0 p-3">Categories</h6>
-                            {{--<h6 style="float: right;" class="card-title card-padding mb-0 p-2">
-                                <a href="{{ route('admin.categories.add', [$product_id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded" title="Add Fabric">
+                            <h6 style="float: left;" class="card-title card-padding mb-0 p-3">Sub Categories</h6>
+                            <h6 style="float: right;" class="card-title card-padding mb-0 p-2">
+                                <a href="{{ route('admin.categories', [$product_id]) }}" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded" title="Back To Categories">
+                                    <i class="material-icons mdc-button__icon">arrow_back</i>
+                                </a>
+                                <a href="{{ route('admin.categories.sub-categories.add', [$product_id, $items->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded" title="Add Sub Category">
                                     <i class="material-icons mdc-button__icon">add</i>
                                 </a>
-                            </h6>--}}
+                            </h6>
                         </div>
                         <div class="mdc-data-table">
                             <table class="mdc-data-table__table" aria-label="Dessert calories">
@@ -27,8 +30,8 @@
                                 </tr>
                                 </thead>
                                 <tbody class="mdc-data-table__content">
-                                @if(isset($items))
-                                    @foreach($items as $k => $item)
+                                @if(isset($items->trans))
+                                    @foreach($items->trans as $k => $item)
                                         <tr data-row-id="u0" class="mdc-data-table__row">
                                             <td class="mdc-data-table__cell">{{ $item->name }}</td>
                                             <td class="mdc-data-table__cell" id="u0">{{ $item->description }}</td>
@@ -42,11 +45,11 @@
                                                 {{--{{ ($item->status == 1 ? 'Active' : 'In Active') }}--}}
                                             </td>
                                             <td class="mdc-data-table__cell">
-                                                <a href="{{ route('admin.categories.edit', [$item->product_id, $item->id]) }}" title="Edit" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
+                                                <a href="{{ route('admin.categories.sub-categories.edit', [$item->product_id, $items->id, $item->id]) }}" title="Edit" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">edit</i>
                                                 </a>
-                                                <a href="{{ route('admin.categories.sub-categories', [$item->product_id, $item->id]) }}" title="Sub Categories" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
-                                                    <i class="material-icons mdc-button__icon">pageview</i>
+                                                <a href="{{ route('admin.categories.sub-categories.delete', [$item->product_id, $items->id, $item->id]) }}" title="Sub Categories" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
+                                                    <i class="material-icons mdc-button__icon">delete</i>
                                                 </a>
                                             </td>
                                         </tr>

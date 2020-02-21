@@ -29,7 +29,16 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
 
     //categories
     Route::get('/{id}/categories', 'CategoryController@index')->name('admin.categories');
-    Route::get('/{id}/categories/add', 'CategoryController@addCategory')->name('admin.categories.add');
+//    Route::get('/{id}/categories/add', 'CategoryController@addCategory')->name('admin.categories.add');
+    Route::get('/{pid}/categories/edit/{id}', 'CategoryController@editCategory')->name('admin.categories.edit');
+    Route::post('/{pid}/categories/update/{id}', 'CategoryController@updateCategory')->name('admin.categories.update');
+    //sub-categories
+    Route::get('/{pid}/categories/{id}/sub-categories', 'CategoryController@subCategories')->name('admin.categories.sub-categories');
+    Route::get('/{pid}/categories/{id}/sub-categories/add', 'CategoryController@addSubCategory')->name('admin.categories.sub-categories.add');
+    Route::post('/{pid}/categories/{id}/sub-categories', 'CategoryController@storeSubCategory')->name('admin.categories.sub-categories.submit');
+    Route::get('/{pid}/categories/{cid}/sub-categories/{id}/edit', 'CategoryController@editSubCategory')->name('admin.categories.sub-categories.edit');
+    Route::get('/{pid}/categories/{cid}/sub-categories/{id}/delete', 'CategoryController@deleteSubCategory')->name('admin.categories.sub-categories.delete');
+//    Route::post('/{pid}/categories/update/{id}', 'CategoryController@updateCategory')->name('admin.categories.update');
 
     //fabrics
     Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');

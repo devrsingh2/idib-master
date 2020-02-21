@@ -17,17 +17,17 @@
                     <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-6-tablet">
                         <div class="mdc-card">
                             <h4 class="justify-content-center">Login To Your Account</h4>
-                            @error('username')
+                            {{--@error('username')
                             <div class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></div>
                             @enderror
                             @error('password')
                             <div class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></div>
-                            @enderror
+                            @enderror--}}
                             <form method="post" action="{{ route('post-login') }}" autocomplete="off">
                                 @csrf
                                 <div class="mdc-layout-grid">
-                                    <div class="mdc-layout-grid__inner">
-                                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+                                    <div class="text-field-container">
+                                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 pb-1">
                                             <div class="mdc-text-field w-100">
                                                 <input
                                                         class="mdc-text-field__input @error('username') is-invalid @enderror"
@@ -39,11 +39,11 @@
                                                 <label for="text-field-hero-input" class="mdc-floating-label">Username/Email</label>
                                             </div>
                                         </div>
-                                        {{--@error('username')
+                                        @error('username')
                                         <div class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></div>
-                                        @enderror--}}
-
-                                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
+                                        @enderror
+                                        <br/>
+                                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12 pb-1">
                                             <div class="mdc-text-field w-100">
                                                 <input
                                                         class="mdc-text-field__input @error('password') is-invalid @enderror"
@@ -55,10 +55,10 @@
                                                 <label for="text-field-hero-input" class="mdc-floating-label">Password</label>
                                             </div>
                                         </div>
-                                        {{--@error('password')
+                                        @error('password')
                                         <div class="invalid-feedback" role="alert"><strong>{{ $message }}</strong></div>
                                         @enderror
-                                        <br/>--}}
+                                        <br/>
                                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop">
                                             <div class="mdc-form-field">
                                                 <div class="mdc-checkbox">
@@ -77,15 +77,18 @@
                                                 </div>
                                                 <label for="checkbox-1">Remember me</label>
                                             </div>
+                                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop d-flex align-items-center justify-content-end">
+                                                <a href="#">Forgot Password</a>
+                                            </div>
                                         </div>
-                                        <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop d-flex align-items-center justify-content-end">
-                                            <a href="#">Forgot Password</a>
-                                        </div>
+
                                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
                                             <button type="submit" class="mdc-button mdc-button--raised w-100">
                                                 Login
                                             </button>
                                         </div>
+                                        <br/>
                                         <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12 justify-content-center">
                                             <a href="{{ route('register') }}">Create Your Account Here</a>
                                         </div>
