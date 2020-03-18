@@ -17,7 +17,14 @@
 <!-- End layout styles -->
 <link rel="shortcut icon" href="{{ asset('website-assets/images/favicon.png') }}" />
 <style>
+    /*.mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .invalid-feedback {
+        color: #ff0000;
+    }*/
     .mdc-text-field:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .invalid-feedback {
+        color: #ff0000;
+    }
+    .mdc-select:not(.mdc-text-field--disabled) + .mdc-text-field-helper-line .invalid-feedback {
+        /*padding-left: 5px;*/
         color: #ff0000;
     }
 </style>

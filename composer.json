@@ -37,7 +37,8 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Idib\\Shopify\\": "packages/idib/shopify/src/"
+            "Idib\\Shopify\\": "packages/idib/shopify/src/",
+            "Idib\\Suits\\": "packages/idib/suits/src/"
         },
         "classmap": [
             "database/seeds",

@@ -70,7 +70,7 @@ class CategoryController extends Controller
         $item->status = $status;
         $item->save();
 
-        toastr()->error('Category Updated successfully!');
+        toastr()->success('Category Updated successfully!');
         return redirect()->route('admin.categories', [$pId]);
     }
 
@@ -114,8 +114,8 @@ class CategoryController extends Controller
             ],
             [
 //                'category_id.required' => 'Please enter category name',
-                'category_name.required' => 'Please enter category name',
-                'category_description.required' => 'Please enter category description'
+                'category_name.required' => 'Please enter sub category name',
+                'category_description.required' => 'Please enter sub category description'
             ]
         );
         $status = false;
@@ -132,13 +132,14 @@ class CategoryController extends Controller
         $item->order = $item->id;
         $item->save();
 
-        toastr()->error('Sub Category Added successfully!');
+        toastr()->success('Sub Category Added successfully!');
         return redirect()->route('admin.categories.sub-categories', [$pId, $request->category_id]);
     }
 
     public function editSubCategory($productId, $cId, $id)
     {
         $product_id = $productId;
+//        $item = SubCategory::FilterCategory($cId)->find($id);
         $item = SubCategory::find($id);
         dd($item);
         return view('admin.categories.edit-sub-category', compact('product_id', 'item'));
@@ -172,7 +173,7 @@ class CategoryController extends Controller
         $item->status = $status;
         $item->save();
 
-        toastr()->error('Category Updated successfully!');
+        toastr()->success('Category Updated successfully!');
         return redirect()->route('admin.categories', [$pId]);
     }
 

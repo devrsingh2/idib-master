@@ -8,7 +8,7 @@ class Category extends Model
 {
     protected $table = 'categories';
 
-    protected $with = ['trans'];
+//    protected $with = ['trans'];
 
     public function trans()
     {

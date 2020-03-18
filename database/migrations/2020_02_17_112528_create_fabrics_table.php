@@ -28,6 +28,7 @@ class CreateFabricsTable extends Migration
             $table->bigInteger('color_parent')->nullable();
             $table->bigInteger('category_parent')->nullable();
             $table->boolean('status')->default(1);
+            $table->string('order_id')->nullable();
             $table->timestamps();
         });
     }

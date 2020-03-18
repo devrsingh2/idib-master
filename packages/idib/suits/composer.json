@@ -1,0 +1,17 @@
+{
+    "name": "idib/suits",
+    "description": "Manage Idib framework suits",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Ramesh Singh",
+            "email": "rsingh2@katalysttech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Idib\\Suits\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}

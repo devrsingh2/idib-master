@@ -19,8 +19,8 @@
                                 <thead>
                                 <tr class="mdc-data-table__header-row">
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Name</th>
-                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Description</th>
-                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Logo</th>
+                                    {{--<th class="mdc-data-table__header-cell" role="columnheader" scope="col">Description</th>--}}
+                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Image</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Status</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
                                         Action
@@ -32,17 +32,24 @@
                                     @foreach($items as $k => $item)
                                         <tr data-row-id="u0" class="mdc-data-table__row">
                                             <td class="mdc-data-table__cell">{{ $item->name }}</td>
-                                            <td class="mdc-data-table__cell" id="u0">{{ $item->description }}</td>
+                                            {{--<td class="mdc-data-table__cell" id="u0">{{ $item->description }}</td>--}}
                                             <td class="mdc-data-table__cell">
-                                                <a href="{{ $item->logo }}" class="" target="_blank" >
-                                                    <img src="{{ $item->logo }}" width="40" />
+                                                <a href="{{ asset('tool/images/fabric/suit').'/'. $item->fabric_image }}" class="" target="_blank" >
+                                                    <img src="{{ asset('tool/images/fabric/suit').'/'.$item->fabric_image }}" width="60" />
                                                 </a>
                                             </td>
-                                            <td class="mdc-data-table__cell">{{ $item->status }}</td>
                                             <td class="mdc-data-table__cell">
-                                                <button class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
-                                                    <i class="material-icons mdc-button__icon">edit</i>
+                                                <button
+                                                        class="mdc-button mdc-button--raised icon-button {{ ($item->status == 1 ? 'filled-button--primary' : 'filled-button--danger') }} mdc-ripple-upgraded"
+                                                        title="{{ ($item->status == 1 ? 'Active' : 'In Active') }}"
+                                                >
+                                                    <i class="material-icons mdc-button__icon">{{ ($item->status == 1 ? 'radio_button_checked' : 'radio_button_unchecked') }}</i>
                                                 </button>
+                                            </td>
+                                            <td class="mdc-data-table__cell">
+                                                <a href="{{ route('admin.fabrics.edit', [$item->product_id, $item->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
+                                                    <i class="material-icons mdc-button__icon">edit</i>
+                                                </a>
                                                 {{--<button class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">delete</i>
                                                 </button>--}}

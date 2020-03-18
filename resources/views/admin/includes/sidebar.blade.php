@@ -1,6 +1,6 @@
 <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
     <div class="mdc-drawer__header">
-        <a href="index.html" class="brand-logo">
+        <a href="{{ url('/') }}/admin" class="brand-logo">
             <img src="{{ asset('website-assets/images/logo.svg') }}" alt="logo">
         </a>
     </div>
@@ -59,12 +59,12 @@
                                 </a>
                             </div>
                             <div class="mdc-list-item mdc-drawer-item">
-                                <a class="mdc-drawer-link" href="{{ route('admin.fabrics', [1]) }}">
+                                <a class="mdc-drawer-link" href="{{ route('admin.suits.fabrics') }}">
                                     Fabrics
                                 </a>
                             </div>
                             <div class="mdc-list-item mdc-drawer-item">
-                                <a class="mdc-drawer-link" href="{{ '#' }}">
+                                <a class="mdc-drawer-link" href="{{ route('admin.suits.accents') }}">
                                     Accent
                                 </a>
                             </div>

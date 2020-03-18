@@ -23,6 +23,7 @@
                                 <tr class="mdc-data-table__header-row">
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Name</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Description</th>
+                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Category</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Status</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
                                         Action
@@ -35,6 +36,7 @@
                                         <tr data-row-id="u0" class="mdc-data-table__row">
                                             <td class="mdc-data-table__cell">{{ $item->name }}</td>
                                             <td class="mdc-data-table__cell" id="u0">{{ $item->description }}</td>
+                                            <td class="mdc-data-table__cell">{{ $items->name }}</td>
                                             <td class="mdc-data-table__cell">
                                                 <button
                                                         class="mdc-button mdc-button--raised icon-button {{ ($item->status == 1 ? 'filled-button--primary' : 'filled-button--danger') }} mdc-ripple-upgraded"

@@ -21,6 +21,8 @@ Route::get('register', 'Auth\RegisterController@showRegistrationForm')->name('re
 Route::post('register', 'Auth\RegisterController@postRegister')->name('submit-signup');
 
 Route::prefix('admin')->middleware(['auth'])->group(function () {
+    Route::get('/', 'AdminController@dashboard');
+
     Route::get('/dashboard', 'AdminController@dashboard')->name('admin.dashboard');
 
     Route::get('/products', 'ProductController@index')->name('admin.products');
@@ -40,9 +42,24 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/{pid}/categories/{cid}/sub-categories/{id}/delete', 'CategoryController@deleteSubCategory')->name('admin.categories.sub-categories.delete');
 //    Route::post('/{pid}/categories/update/{id}', 'CategoryController@updateCategory')->name('admin.categories.update');
 
+    Route::get('/suits/fabrics', '\Idib\Suits\Controllers\FabricController@index')->name('admin.suits.fabrics');
+    Route::get('/suits/fabrics/add', '\Idib\Suits\Controllers\FabricController@addFabric')->name('admin.suits.fabrics.add');
+    Route::post('/suits/fabrics/store', '\Idib\Suits\Controllers\FabricController@storeFabric')->name('admin.suits.fabrics.store');
+    Route::get('/suits/fabrics/{id}/edit', '\Idib\Suits\Controllers\FabricController@editFabric')->name('admin.suits.fabrics.edit');
+    Route::post('/suits/fabrics/{id}/update', '\Idib\Suits\Controllers\FabricController@updateFabric')->name('admin.suits.fabrics.update');
+    //accent
+    Route::get('/suits/accents', '\Idib\Suits\Controllers\AccentController@index')->name('admin.suits.accents');
+    Route::get('/suits/accents/add', '\Idib\Suits\Controllers\AccentController@addAccent')->name('admin.suits.accents.add');
+    Route::post('/suits/accents/store', '\Idib\Suits\Controllers\AccentController@storeAccent')->name('admin.suits.accents.store');
+    Route::get('/suits/accents/{id}/edit', '\Idib\Suits\Controllers\AccentController@editAccent')->name('admin.suits.accents.edit');
+    Route::post('/suits/accents/{id}/update', '\Idib\Suits\Controllers\AccentController@updateAccent')->name('admin.suits.accents.update');
+
     //fabrics
-    Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');
+    /*Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');
     Route::get('/{id}/fabrics/add', 'FabricController@addFabric')->name('admin.fabrics.add');
+    Route::post('/{id}/fabrics/store', 'FabricController@storeFabric')->name('admin.fabrics.store');
+    Route::get('/{pId}/fabrics/{id}/edit', 'FabricController@editFabric')->name('admin.fabrics.edit');
+    Route::post('/{pId}/fabrics/{id}/update', 'FabricController@updateFabric')->name('admin.fabrics.update');*/
 
 
     Route::get('/profile', 'UserController@profile')->name('admin.profile');
@@ -52,8 +69,8 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('setting', 'UserController@getSetting')->name('admin.setting');
     Route::post('setting', 'UserController@getSetting')->name('admin.setting');
 
-    Route::get('notification', 'NotificationController@userNotification')->name('admin.notification');
-    Route::get('get-notification', 'NotificationController@getVendorNotificationFromCustomer')->name('admin.get-notification');
+//    Route::get('notification', 'NotificationController@userNotification')->name('admin.notification');
+//    Route::get('get-notification', 'NotificationController@getVendorNotificationFromCustomer')->name('admin.get-notification');
 });
 
 Route::middleware(['auth'])->group(function () {
@@ -66,8 +83,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('setting', 'UserController@getSetting')->name('user.setting');
     Route::post('setting', 'UserController@getSetting')->name('user.setting');
 
-    Route::get('notification', 'NotificationController@userNotification')->name('user.notification');
-    Route::get('get-notification', 'NotificationController@getVendorNotificationFromCustomer')->name('user.get-notification');
+//    Route::get('notification', 'NotificationController@userNotification')->name('user.notification');
+//    Route::get('get-notification', 'NotificationController@getVendorNotificationFromCustomer')->name('user.get-notification');
 });
 
 Route::get('logout', 'HomeController@getLogout')->name('user.logout');

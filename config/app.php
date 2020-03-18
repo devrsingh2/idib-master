@@ -166,6 +166,7 @@ return [
          * Package Service Providers...
          */
         Idib\Shopify\ShopifyServiceProvider::class,
+        Idib\Suits\SuitsServiceProvider::class,
         /*
          * Application Service Providers...
          */
