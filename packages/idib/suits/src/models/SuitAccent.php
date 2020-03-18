@@ -14,4 +14,13 @@ class SuitAccent extends Model
      * @var bool
      */
     public $timestamps = false;
+
+    /**
+     * @return $this
+     */
+    public function trans()
+    {
+        return $this->hasMany('\Idib\Suits\Models\SuitAccentAttribute', 'accent_id')->select("*");
+    }
+
 }

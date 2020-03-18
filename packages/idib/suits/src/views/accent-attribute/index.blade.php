@@ -7,7 +7,7 @@
                 <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-12">
                     <div class="mdc-card p-0">
                         <div class="col-12 row">
-                            <h6 style="float: left;" class="card-title card-padding mb-0 p-3">Accents</h6>
+                            <h6 style="float: left;" class="card-title card-padding mb-0 p-3">Accent Attribute</h6>
                             <h6 style="float: right;" class="card-title card-padding mb-0 p-3">
                                 <a href="{{ route('admin.suits.accents.add') }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded" title="Add Accent">
                                     <i class="material-icons mdc-button__icon">add</i>
@@ -46,9 +46,9 @@
                                                 <a href="{{ route('admin.suits.accents.edit', [$item->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">edit</i>
                                                 </a>
-                                                <a href="{{ route('admin.suits.accent-attributes', [$item->id]) }}" title="Accent Attributes" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
-                                                    <i class="material-icons mdc-button__icon">pageview</i>
-                                                </a>
+                                                {{--<button class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
+                                                    <i class="material-icons mdc-button__icon">delete</i>
+                                                </button>--}}
                                             </td>
                                         </tr>
                                     @endforeach

@@ -53,6 +53,12 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::post('/suits/accents/store', '\Idib\Suits\Controllers\AccentController@storeAccent')->name('admin.suits.accents.store');
     Route::get('/suits/accents/{id}/edit', '\Idib\Suits\Controllers\AccentController@editAccent')->name('admin.suits.accents.edit');
     Route::post('/suits/accents/{id}/update', '\Idib\Suits\Controllers\AccentController@updateAccent')->name('admin.suits.accents.update');
+    //accent attr
+    Route::get('/suits/accent-attributes/{id}', '\Idib\Suits\Controllers\AccentAttributeController@index')->name('admin.suits.accent-attributes');
+    Route::get('/suits/accent-attributes/{id}/add', '\Idib\Suits\Controllers\AccentAttributeController@addAccent')->name('admin.suits.accent-attributes.add');
+    Route::post('/suits/accent-attributes/{id}/store', '\Idib\Suits\Controllers\AccentAttributeController@storeAccent')->name('admin.suits.accent-attributes.store');
+    Route::get('/suits/accent-attributes/{aid}/{id}/edit', '\Idib\Suits\Controllers\AccentAttributeController@editAccent')->name('admin.suits.accent-attributes.edit');
+    Route::post('/suits/accent-attributes/{aid}/{id}/update', '\Idib\Suits\Controllers\AccentAttributeController@updateAccent')->name('admin.suits.accent-attributes.update');
 
     //fabrics
     /*Route::get('/{id}/fabrics', 'FabricController@index')->name('admin.fabrics');
