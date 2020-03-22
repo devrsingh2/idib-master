@@ -129,8 +129,8 @@
                                             <div class="mdc-select__menu mdc-menu-surface demo-width-class">
                                                 <ul class="mdc-list">
                                                     {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true"></li>--}}
-                                                    @if(isset($cat_arr['material']) && isset($cat_arr['material']->trans))
-                                                        @foreach($cat_arr['material']->trans as $k => $mp)
+                                                    @if(isset($cat_arr['material']))
+                                                        @foreach(array_values($cat_arr['material']) as $k => $mp)
                                                             @if($mp->id == $item->material_parent)
                                                                 <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $mp->id }}" aria-selected="true">{{ $mp->name }}</li>
                                                             @else
@@ -161,8 +161,8 @@
                                                 <ul class="mdc-list">
                                                     {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
                                                     </li>--}}
-                                                    @if(isset($cat_arr['pattern']) && isset($cat_arr['pattern']->trans))
-                                                        @foreach($cat_arr['pattern']->trans as $k => $pp)
+                                                    @if(isset($cat_arr['pattern']))
+                                                        @foreach(array_values($cat_arr['pattern']) as $k => $pp)
                                                             @if($pp->id == $item->pattern_parent)
                                                                 <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $pp->id }}" aria-selected="true">{{ $pp->name }}</li>
                                                             @else
@@ -193,8 +193,8 @@
                                                 <ul class="mdc-list">
                                                     {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
                                                     </li>--}}
-                                                    @if(isset($cat_arr['season']) && isset($cat_arr['season']->trans))
-                                                        @foreach($cat_arr['season']->trans as $k => $sp)
+                                                    @if(isset($cat_arr['season']))
+                                                        @foreach(array_values($cat_arr['season']) as $k => $sp)
                                                             @if($sp->id == $item->season_parent)
                                                                 <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $sp->id }}" aria-selected="true">{{ $sp->name }}</li>
                                                             @else
@@ -228,8 +228,8 @@
                                                 <ul class="mdc-list">
                                                     {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
                                                     </li>--}}
-                                                    @if(isset($cat_arr['color']) && isset($cat_arr['color']->trans))
-                                                        @foreach($cat_arr['color']->trans as $k => $cp)
+                                                    @if(isset($cat_arr['color']))
+                                                        @foreach(array_values($cat_arr['color']) as $k => $cp)
                                                             @if($cp->id == $item->color_parent)
                                                                 <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $cp->id }}" aria-selected="true">{{ $cp->name }}</li>
                                                             @else
@@ -263,8 +263,8 @@
                                                 <ul class="mdc-list">
                                                     {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
                                                     </li>--}}
-                                                    @if(isset($cat_arr['category']) && isset($cat_arr['category']->trans))
-                                                        @foreach($cat_arr['category']->trans as $k => $cp)
+                                                    @if(isset($cat_arr['category']))
+                                                        @foreach(array_values($cat_arr['category']) as $k => $cp)
                                                             @if($cp->id == $item->category_parent)
                                                                 <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $cp->id }}" aria-selected="true">{{ $cp->name }}</li>
                                                             @else

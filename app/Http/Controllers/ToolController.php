@@ -1,11 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace OhMyBrew\ShopifyApp\Traits\tool;
 
+
+use function GuzzleHttp\Psr7\_caseless_remove;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Validator;
 
+use OhMyBrew\ShopifyApp\Helper\GlowMaskShirtThreadImageGenerator;
 use OhMyBrew\ShopifyApp\Models\tool\Api;
 use OhMyBrew\ShopifyApp\Models\tool\Products;
 use OhMyBrew\ShopifyApp\Models\tool\ProductColor;
@@ -38,7 +41,7 @@ use DB;
 //$getAPI = Api::get();
 //$ngrok = $getAPI[0]['API_key'];
 
-class ToolController extends Controller
+trait ProductControllerTrait
 {
 
 
@@ -78,35 +81,35 @@ class ToolController extends Controller
 
         curl_close($curl);
         $respo = json_decode($response);
+//        dd($respo);
 
-        //dd($response);
-
-        DB::table('idib_order_details')->truncate();
+        /*DB::table('idib_order_details')->truncate();
         DB::table('idib_order_item_details')->truncate();
-        DB::table('idib_customer_details')->truncate();
+        DB::table('idib_customer_details')->truncate();*/
 
         $order_arr = array();
         $item_arr = array();
         $order_list_arr = array();
         $customer_arr = array();
 
-        foreach($respo as $key => $item)
-        {
-            foreach($item as $key => $value)
-            {
-                foreach ($value->line_items as $key => $line_item)
-                {
+        foreach($respo as $key => $item) {
+            foreach($item as $key => $value) {
+                foreach ($value->line_items as $key => $line_item) {
                     //4439434461293
-                    if($line_item->product_id == "4439434461293")
-                    {
-
+                    if ($line_item->product_id == "4439434461293") {
                         $mainOrderId = $value->order_number;
-
+                        $orderDetail = DB::table('idib_order_details')
+                            ->where('line_item_id', $line_item->id)
+                            ->first();
                         CartItem::where('variant_id', $line_item->variant_id)->update(['checkout_id' => $mainOrderId]);
-
-                        $orderId = self::insertOrderDetails($value,$line_item, $mainOrderId);
-                        $LineItem = self::insertOrderLineItems($value,$line_item, $mainOrderId);
-                        $customerInfo = self::insertOrderCustomer($value,$line_item, $mainOrderId);
+                        if (isset($orderDetail->line_item_id) && $orderDetail->line_item_id .' == '. $line_item->id) {
+                            continue;
+                        }
+                        else {
+                            $orderId = self::insertOrderDetails($value, $line_item, $mainOrderId);
+                            $LineItem = self::insertOrderLineItems($value, $line_item, $mainOrderId);
+                            $customerInfo = self::insertOrderCustomer($value, $line_item, $mainOrderId);
+                        }
 
                     }
                 }
@@ -606,8 +609,31 @@ class ToolController extends Controller
 
     public function storeNewColor(Request $request, $id)
     {
-        if(($file = $request->hasFile('fabric_thumb')) && ($file = $request->hasFile('display_image')) && ($file = $request->hasFile('large_image')))
-        {
+        $request->validate(
+            [
+                'color_name' => 'required',
+                'fabric_thumb' => 'required|dimensions:width=100,height=100',
+                'display_image' => 'required|dimensions:width=360,height=360',
+                'large_image' => 'required|dimensions:width=1000,height=1000',
+                'fabric_price' => 'required',
+                'material_category_get' => 'required',
+                'pattern_category_get' => 'required',
+                'season_category_get' => 'required',
+                'color_category_get' => 'required',
+                'category_category_get' => 'required',
+            ],
+            [
+                'color_name.required' => 'Please enter fabric name.',
+                'fabric_price.required' => 'Please enter fabric price.',
+                'material_category_get.required' => 'Please select material parent.',
+                'pattern_category_get.required' => 'Please select pattern parent.',
+                'season_category_get.required' => 'Please select season parent.',
+                'color_category_get.required' => 'Please select color parent.',
+                'category_category_get.required' => 'Please select category parent.',
+            ]
+        );
+        if(($file = $request->hasFile('fabric_thumb')) && ($file = $request->hasFile('display_image')) && ($file = $request->hasFile('large_image'))) {
+
             $file = $request->file('fabric_thumb');
             $file_thumb = $request->file('display_image');
             $file_thumb_large = $request->file('large_image');
@@ -655,16 +681,18 @@ class ToolController extends Controller
             $productColor->save();
             //shirt image genration helper
             if ($id == 1) {
-                GlowMaskShirtImageGenerator::ShirtImageGenerator($productColor->id, $fileName_thumb, $destinationPath_thumb);
+//                GlowMaskShirtImageGenerator::ShirtImageGenerator($productColor->id, $fileName_thumb, $destinationPath_thumb);
+                GlowMaskShirtImageGenerator::ShirtImageGenerator($productColor->id, $fileName, $destinationPath);
             }
             //suit image genration helper
             if ($id == 2) {
-                GlowMaskImageGenerator::ImageGenerator($productColor->id, $fileName_thumb, $destinationPath_thumb);
+//                GlowMaskImageGenerator::ImageGenerator($productColor->id, $fileName_thumb, $destinationPath_thumb);
+                GlowMaskImageGenerator::ImageGenerator($productColor->id, $fileName, $destinationPath);
             }
 
-            \session()->put('success', 'New color Added successfully!');
-            Toastr::success('New color Added successfully', 'Success!');
-            return redirect()->route('manage-product', $id);
+            \session()->put('success', 'Fabric added successfully!');
+            Toastr::success('Fabric added successfully', 'Success!');
+            return redirect()->route('list-color', $id);
         }
     }
 
@@ -711,8 +739,8 @@ class ToolController extends Controller
             return view('shopify-app::tool.edit-color', compact('getMaterialParentList', 'getPatternParentList', 'getSeasonParentList', 'getColorParentList', 'getCategoryParentList', 'getProductCategory', 'getProducts', 'getProductColor'));
         }
         else {
-            \session()->put('error','Requested Color not found!');
-            Toastr::error('Requested Color not found', 'Error!');
+            \session()->put('error','Requested fabric not found!');
+            Toastr::error('Requested fabric not found', 'Error!');
             return redirect()->route('list-color',[$getProductColor[0]->product_id]);
         }
     }
@@ -722,6 +750,33 @@ class ToolController extends Controller
     public function updateNewColor(Request $request, $id)
     {
         if (($request->hasFile('fabric_image')) && ($request->hasFile('display_image')) && ($request->hasFile('large_image'))) {
+            $request->validate(
+                [
+                    'color_name' => 'required',
+                    'fabric_image' => 'dimensions:width=100,height=100',
+                    'display_image' => 'dimensions:width=360,height=360',
+                    'large_image' => 'dimensions:width=1000,height=1000',
+                    'fabric_price' => 'required',
+                    'material_category_get' => 'required',
+                    'pattern_category_get' => 'required',
+                    'season_category_get' => 'required',
+                    'color_category_get' => 'required',
+                    'category_category_get' => 'required',
+                ],
+                [
+                    'color_name.required' => 'Please enter fabric name.',
+                    'fabric_price.required' => 'Please enter fabric price.',
+                    'fabric_image.dimensions' => 'The fabric thumb has invalid image dimensions.',
+                    'display_image.dimensions' => 'The display thumb has invalid image dimensions.',
+                    'large_image.dimensions' => 'The large image has invalid image dimensions.',
+                    'material_category_get.required' => 'Please select material parent.',
+                    'pattern_category_get.required' => 'Please select pattern parent.',
+                    'season_category_get.required' => 'Please select season parent.',
+                    'color_category_get.required' => 'Please select color parent.',
+                    'category_category_get.required' => 'Please select category parent.',
+                ]
+            );
+
             $file = $request->file('fabric_image');
             $file_thumb = $request->file('display_image');
             $file_thumb_large = $request->file('large_image');
@@ -767,14 +822,37 @@ class ToolController extends Controller
 
             //shirt image genration helper
             if ($request->product_id == 1) {
-                GlowMaskShirtImageGenerator::ShirtImageGenerator($id, $fileName_thumb, $destinationPath_thumb);
+//                GlowMaskShirtImageGenerator::ShirtImageGenerator($id, $fileName_thumb, $destinationPath_thumb);
+                GlowMaskShirtImageGenerator::ShirtImageGenerator($id, $fileName, $destinationPath);
             }
             //suit image genration helper
             if ($request->product_id == 2) {
-                GlowMaskImageGenerator::ImageGenerator($id, $fileName_thumb, $destinationPath_thumb);
+//                GlowMaskImageGenerator::ImageGenerator($id, $fileName_thumb, $destinationPath_thumb);
+                GlowMaskImageGenerator::ImageGenerator($id, $fileName, $destinationPath);
             }
 
         } else {
+            $request->validate(
+                [
+                    'color_name' => 'required',
+                    'fabric_price' => 'required',
+                    'material_category_get' => 'required',
+                    'pattern_category_get' => 'required',
+                    'season_category_get' => 'required',
+                    'color_category_get' => 'required',
+                    'category_category_get' => 'required',
+                ],
+                [
+                    'color_name.required' => 'Please enter fabric name.',
+                    'fabric_price.required' => 'Please enter fabric price.',
+                    'material_category_get.required' => 'Please select material parent.',
+                    'pattern_category_get.required' => 'Please select pattern parent.',
+                    'season_category_get.required' => 'Please select season parent.',
+                    'color_category_get.required' => 'Please select color parent.',
+                    'category_category_get.required' => 'Please select category parent.',
+                ]
+            );
+
             $status = false;
             if($request->status)
             {
@@ -800,8 +878,8 @@ class ToolController extends Controller
 
         }
 
-        \session()->put('success','Color Updated successfully!');
-        Toastr::success('Color Updated successfully', 'Success!');
+        \session()->put('success','Fabric updated successfully!');
+        Toastr::success('Fabric updated successfully', 'Success!');
         return redirect()->route('list-color',[$request->product_id]);
 //        return redirect()->route('manage-product',[$request->product_id]);
 
@@ -811,12 +889,12 @@ class ToolController extends Controller
 
     public function deleteNewColor(Request $request, $id)
     {
-        //dd($id);
+        $productColor = ProductColor::find($id);
+        $product_id = $productColor->product_id;
         $deleteColor = ProductColor::where('id', $id)->delete();
-        \session()->put('success','Color Deleted successfully!');
-        Toastr::success('Color Deleted successfully', 'Success!');
-        return redirect()->route('list-color',[1]);
-//        return redirect()->route('manage-product', 1);
+        \session()->put('success','Fabric deleted successfully!');
+        Toastr::success('Fabric deleted successfully', 'Success!');
+        return redirect()->route('list-color',[$product_id]);
     }
 
 
@@ -1201,16 +1279,25 @@ class ToolController extends Controller
     {
         $prodID = $id;
         $accentId = $accent_id;
-        $getProducts = Products::get(); //sidebar
-        /*$getProductColor = ProductColor::where('product_id', $id)->get(); */
-        $getProductButton = DB::table('product_button')
-            ->join('products', 'product_button.product_id', 'products.id')
-            ->join('product_accent', 'product_button.accent_id', 'product_accent.id')
-            ->select('product_accent.accent as accent_name','product_button.product_id', 'product_button.price','product_button.icon_class','product_button.accent_id', 'product_button.button_description', 'product_button.status', 'product_button.id', 'product_button.status', 'product_button.button','products.id as prod_id','products.product_name','product_button.button_image','product_button.icon_class')
-            ->where('product_button.product_id', $id)
-            ->where('product_button.accent_id', $accent_id)->get()->toArray();
-        $getProductInfo = Products::where('id', $id)->get();
-        return view('shopify-app::tool.list-accent',compact('prodID', 'accentId', 'getProducts','getProductInfo','getProductButton'));
+        if ($accentId == 13) {
+            $getProductAccent = ProductAccent::where(function ($q) use($accentId) {
+                $q->where('id', $accentId);
+//                $q->where('status', 1);
+            })->first();
+//            dd($getProductAccent);
+            return view('shopify-app::tool.edit-nametag',compact('prodID', 'accentId', 'getProductAccent'));
+        } else {
+            $getProducts = Products::get(); //sidebar
+            /*$getProductColor = ProductColor::where('product_id', $id)->get(); */
+            $getProductButton = DB::table('product_button')
+                ->join('products', 'product_button.product_id', 'products.id')
+                ->join('product_accent', 'product_button.accent_id', 'product_accent.id')
+                ->select('product_accent.accent as accent_name','product_button.product_id', 'product_button.price','product_button.icon_class','product_button.accent_id', 'product_button.button_description', 'product_button.status', 'product_button.id', 'product_button.status', 'product_button.button','products.id as prod_id','products.product_name','product_button.button_image','product_button.icon_class')
+                ->where('product_button.product_id', $id)
+                ->where('product_button.accent_id', $accent_id)->get()->toArray();
+            $getProductInfo = Products::where('id', $id)->get();
+            return view('shopify-app::tool.list-accent',compact('prodID', 'accentId', 'getProducts','getProductInfo','getProductButton'));
+        }
     }
 
     /******Add New Brass Button *****/
@@ -1240,21 +1327,16 @@ class ToolController extends Controller
 
             $fileName = $file->getClientOriginalName() ;
 
-            if($id == 1)
-            {
-                $destinationPath = public_path().'/tool/images/display/shirt/' ;
-            }else{
+            if ($id == 1) {
+                $img_path = 'shirt/thread/';
+                $destinationPath = public_path().'/tool/images/display/shirt/thread/';
+//                $destinationPath = public_path().'/tool/images/display/shirt/';
+            } else {
+                $img_path = 'suit/thread/';
                 $destinationPath = public_path().'/tool/images/display/suit/';
             }
 
             $file->move($destinationPath,$fileName);
-
-            if($id == 1)
-            {
-                $img_path = 'shirt';
-            }else{
-                $img_path = 'suit';
-            }
 
             $productButton = new ProductButton();
             $productButton->product_id = $id;
@@ -1271,20 +1353,21 @@ class ToolController extends Controller
             if ($request->status) {
                 $productButton->status = true;
             }
-
-            if($request->accent_id == 2)
-            {
-
+            if ($id == 1) {
+                GlowMaskShirtThreadImageGenerator::ThreadImageGenerator($productButton->alt_id, $fileName, $destinationPath);
+            }
+            /*if($request->accent_id == 2) {
                 GlowMaskThreadImageGenerator::ThreadImageGenerator($cnt_chk_id, $fileName, $destinationPath);
             }
-            if($request->accent_id == 4)
-            {
+
+            if ($request->accent_id == 4) {
                 GlowMaskLiningImageGenerator::LiningImageGenerator($cnt_chk_id, $fileName, $destinationPath);
-            }
+            }*/
             $productButton->save();
             \session()->put('success', 'New Brass Button Added successfully!');
             Toastr::success('New Brass Button Added successfully', 'Success!');
-            return redirect()->route('manage-product', $id);
+//            return redirect()->route('manage-product', $id);
+            return redirect()->route('list-brass_button',[$request->accent_id, $id]);
         }
     }
 
@@ -1308,63 +1391,46 @@ class ToolController extends Controller
 
             $fileName = $file->getClientOriginalName() ;
 
-            if($request->product_id == 1)
-            {
-                $destinationPath = public_path().'/tool/images/display/shirt/' ;
-            }else{
-                $destinationPath = public_path().'/tool/images/display/suit/';
+            if ($request->product_id == 1) {
+                $img_path = 'shirt/thread/';
+                $destinationPath = public_path().'/tool/images/display/shirt/thread/' ;
+            } else {
+                $img_path = 'suit/thread/';
+                $destinationPath = public_path().'/tool/images/display/suit/thread/';
             }
 
-            $file->move($destinationPath,$fileName);
+            $file->move($destinationPath, $fileName);
 
             $status = false;
-            if($request->status)
-            {
+            if ($request->status) {
                 $status = true;
             }
 
-            $productButton = array(
-                //$productButton->product_id = $id;
-                //$productButton->type_id = $request->type_id;
-                //'category_id' => $request->category_id,
-                'product_id' => $request->product_id,
-                'button' => $request->brass_button_name,
-                'icon_class' => $request->brass_button_icon_class,
-                'accent_id' => $request->accent_id,
-                'button_description' => $request->brass_button_description,
-                'button_image' => $fileName,
-                'price' => $request->brass_button_price,
-                'status' => $status,
-            );
-        }else{
-            $status = false;
-            if($request->status)
-            {
-                $status = true;
+            $productButton = ProductButton::find($request->button_id);
+            $productButton->button = $request->brass_button_name;
+            $productButton->button_description = $request->brass_button_description;
+            $productButton->button_image = url('/').'/public/tool/images/display/'.$img_path.$fileName;
+            $productButton->price = $request->brass_button_price;
+            $productButton->status = $status;
+            $productButton->save();
+            if ($request->product_id == 1) {
+                GlowMaskShirtThreadImageGenerator::ThreadImageGenerator($productButton->alt_id, $fileName, $destinationPath);
             }
 
-            $productButton = array(
-                //$productButton->product_id = $id;
-                //$productButton->type_id = $request->type_id;
-                //'category_id' => $request->category_id,
-                'product_id' => $request->product_id,
-                'button' => $request->brass_button_name,
-                'accent_id' => $request->accent_id,
-                'icon_class' => $request->brass_button_icon_class,
-                'button_description' => $request->brass_button_description,
-                'button_image' => $request->hidden_brass_button_thumb,
-                'price' => $request->brass_button_price,
-                'status' => $status,
-            );
+        } else {
+            $status = false;
+            if ($request->status) {
+                $status = true;
+            }
+            $productButton = ProductButton::find($request->button_id);
+            $productButton->price = $request->brass_button_price;
+            $productButton->status = $status;
+            $productButton->save();
         }
-
-        DB::table('product_button')
-            ->where('id', $id)
-            ->update($productButton);
 
         \session()->put('success','Brass Button Updated successfully!');
         Toastr::success('Brass Button Updated successfully', 'Success!');
-        return redirect()->route('manage-product',[$request->product_id]);
+        return redirect()->route('list-brass_button',[$request->accent_id, $request->product_id]);
     }
 
     /******Delete Brass Button  *****/
@@ -1762,6 +1828,27 @@ class ToolController extends Controller
         Toastr::success('Pocket Square Updated successfully', 'Success!');
         return redirect()->route('list-brass_button', [3, $request->product_id]);
     }
+
+    public function updateNameTag(Request $request, $id)
+    {
+        if ($id !== '') {
+            $status = false;
+            if ($request->status) {
+                $status = true;
+            }
+            $productButton = ProductAccent::find($id);
+            $productButton->status = $status;
+            $productButton->save();
+            \session()->put('success','Name tag updated successfully!');
+            Toastr::success('Name tag updated successfully', 'Success!');
+            return redirect()->route('list-accent', [$request->product_id]);
+        } else {
+            \session()->put('error','Requested data not found!');
+            Toastr::error('Requested data not found', 'Error!');
+            return redirect()->route('list-brass_button',[$request->accent_id, $request->product_id]);
+        }
+
+    }
     /****************************************************************************/
 
 
@@ -2053,28 +2140,53 @@ class ToolController extends Controller
                              ->where('product_style_parts.status',1)
                              ->get();*/
 
-        if(isset($getProductStyle))
-        {
-            if($prodId == 1)
-            {
-                foreach ($getProductStyle as $key => $prod_value)
-                {
+        if (isset($getProductStyle)) {
+            if ($prodId == 1) {
+                foreach ($getProductStyle as $key => $prod_value) {
                     $getProductStyleData = ProductStyleParts::join('product_style','product_style_parts.style_id','product_style.id')
                         ->join('products','product_style.product_id', 'products.id')
                         ->select('product_style_parts.alt_id as id','product_style_parts.icon_class as class','product_style.style as parent','products.product_description as designType','product_style_parts.style_parts as name','product_style_parts.price as price')
                         ->where('product_style_parts.product_id',$prodId)
                         ->where('product_style_parts.style_id',$prod_value->id)
                         ->where('product_style_parts.status', 1)
+                        ->orderBy('product_style_parts.alt_id', 'asc')
                         ->get();
-
+//                    echo '<pre>'; print_r($getProductStyleData);
                     $productStyle['id'] = "".$prod_value->id;
                     $productStyle['name'] = $prod_value->style;
                     $productStyle['designType'] = $prod_value->product_description;
                     $productStyle['class'] = $prod_value->icon_class;
                     $productStyle['style'] = $getProductStyleData;
+                    if ($prod_value->product_description == 'Shirt' && $prod_value->id == 2 && $prod_value->style == 'Cuffs') {
+                        if (isset($getProductStyleData)) {
+                            foreach ($getProductStyleData as $pkey => $pstyle) {
+                                switch ($pstyle->id) {
+                                    case 1:
+                                    case 3:
+                                    case 5:
+                                        $productStyle['style'][$pkey]['button'] = 1;
+                                        break;
+                                    case 2:
+                                    case 4:
+                                    case 6:
+                                        $productStyle['style'][$pkey]['button'] = 2;
+                                        break;
+                                    case 7:
+                                    case 8:
+                                    case 9:
+                                    case 10:
+                                    case 11:
+                                    case 12:
+                                        $productStyle['style'][$pkey]['button'] = 3;
+                                        break;
+                                }
+//                                $productStyle['style'][$pkey]['button'] = $pstyle;
+                            }
+                        }
+                    }
                     $AllProductStyle[] = $productStyle;
                 }
-            }else{
+            } else {
                 $productStyle['Data'] = "Data not available for this product!";
                 $AllProductStyle[] = $productStyle;
             }
@@ -2092,52 +2204,66 @@ class ToolController extends Controller
     public function getToolFabricJson($prodId)
     {
         $local_fabric_path = url('/')."/public/tool/images/fabric";
-        if($prodId == 1){
+        if ($prodId == 1) {
             $product = "shirt";
-        }else{
+        } else {
             $product = "suit";
         }
         $local_display_path = url('/')."/public/tool/images/display/".$product;
         $local_large_path = url('/')."/public/tool/images/large/".$product;
 
-        $getFabric = DB::table('product_colors')->where('product_id', $prodId)->get();
-        if(isset($getFabric))
-        {
-            foreach ($getFabric as $key => $value)
-            {
-
+        $getFabric = DB::table('product_colors')
+            ->where('product_id', $prodId)
+            ->where('status', 1)
+            ->get();
+        if (isset($getFabric)) {
+            foreach ($getFabric as $key => $value) {
                 $getCategoryName = DB::table('product_category')
-                    //->where('product_id', $prodId)
+                    ->where('product_id', $prodId)
                     ->whereIn('id', [$value->material_parent, $value->pattern_parent, $value->season_parent, $value->color_parent, $value->category_parent])
                     ->get()->toArray();
-
-
+//                dd($getCategoryName);
+                $materialParent = DB::table('product_category')
+                    ->where('product_id', $prodId)
+                    ->where('id', $value->material_parent)
+                    ->first();
+                $patternParent = DB::table('product_category')
+                    ->where('product_id', $prodId)
+                    ->where('id', $value->pattern_parent)
+                    ->first();
+                $seasonParent = DB::table('product_category')
+                    ->where('product_id', $prodId)
+                    ->where('id', $value->season_parent)
+                    ->first();
+                $colorParent = DB::table('product_category')
+                    ->where('product_id', $prodId)
+                    ->where('id', $value->color_parent)
+                    ->first();
+                $categoryParent = DB::table('product_category')
+                    ->where('product_id', $prodId)
+                    ->where('id', $value->category_parent)
+                    ->first();
                 $fabric['id'] = $value->id;
                 $fabric['name'] = $value->color_name;
                 //$fabric['fabric_thumb'] = $local_fabric_path.'/'.$value->fabric_image;
                 $fabric['img'] = $local_display_path.'/'.$value->display_image;
                 $fabric['large_thumb'] = $local_large_path.'/'.$value->large_image;
                 $fabric['price'] = $value->fabric_price;
-                $fabric['material_parent'] = $getCategoryName[0]->category;
-                $fabric['pattern_parent'] = $getCategoryName[1]->category;
-                $fabric['season_parent'] = $getCategoryName[2]->category;
-                $fabric['color_parent'] = $getCategoryName[3]->category;
-                $fabric['category_parent'] = $getCategoryName[4]->category;
-                $fabric['type'] = $getCategoryName[0]->category;
+                $fabric['material_parent'] = isset($materialParent) ? $materialParent->category : '';
+                $fabric['pattern_parent'] = isset($patternParent) ? $patternParent->category : '';
+                $fabric['season_parent'] = isset($seasonParent) ? $seasonParent->category : '';
+                $fabric['color_parent'] = isset($colorParent) ? $colorParent->category : '';
+                $fabric['category_parent'] = isset($categoryParent) ? $categoryParent->category : '';
+                $fabric['type'] = isset($getCategoryName[0]) ? $getCategoryName[0]->category : '';
                 $AllFabric[] = $fabric;
             }
-        }
-        else
-        {
+        } else {
             $fabric['Data'] = "Data not available for this product!";
             $AllFabric[] = $fabric;
         }
-
         $getStaticCategory = DB::table('static_category')->get();
-        if(isset($getStaticCategory))
-        {
-            foreach ($getStaticCategory as $key => $value)
-            {
+        if (isset($getStaticCategory)) {
+            foreach ($getStaticCategory as $key => $value) {
                 $getCategory[] = DB::table('product_category')
                     ->join('static_category', 'product_category.static_category_id', 'static_category.id')
                     ->select('product_category.id as id', 'product_category.category as name', 'static_category.static_category_name as parent')
@@ -2149,15 +2275,13 @@ class ToolController extends Controller
             }
         }
 
-
-        $Fabric_data = array();
-        if($prodId == 1)
-        {
-            $Fabric_data = ["fabric" => $AllFabric, "category" => $AllCategory];
-        }else{
-            $Fabric_data = ["fabric" => (object)$AllFabric, "category" => (object)$AllCategory];
+        $fabric_data = array();
+        if ($prodId == 1) {
+            $fabric_data = ["fabric" => $AllFabric, "category" => $AllCategory];
+        } else {
+            $fabric_data = ["fabric" => $AllFabric, "category" => $AllCategory];
         }
-        return json_encode($Fabric_data);
+        return json_encode($fabric_data);
 
     }
 

@@ -16,7 +16,8 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        $items = SuitCategory::get();
+        $items = SuitCategory::where('parent_id', 0)
+            ->get();
         return view('Suits::categories.index', compact('product_id', 'items'));
     }
 

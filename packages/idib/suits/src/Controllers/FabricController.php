@@ -5,8 +5,9 @@ namespace Idib\Suits\Controllers;
 use Idib\Suits\Helpers\GlowMaskImageGenerator;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Category;
+use Idib\Suits\Models\SuitCategory;
 use Idib\Suits\Models\SuitFabric;
+use Illuminate\Support\Facades\DB;
 
 class FabricController extends Controller
 {
@@ -19,32 +20,21 @@ class FabricController extends Controller
 
     public function addFabric()
     {
-        $categories = Category::with('trans')
+        $categories = SuitCategory::with('parent')
+            ->where('parent_id', '!=', 0)
             ->get();
         $cat_arr = [];
         if (isset($categories)) {
             foreach ($categories as $k => $item) {
-                if ($item->seo_url === 'material') {
-                    $cat_arr['material'] = $item;
-                }
-                if ($item->seo_url === 'pattern') {
-                    $cat_arr['pattern'] = $item;
-                }
-                if ($item->seo_url === 'season') {
-                    $cat_arr['season'] = $item;
-                }
-                if ($item->seo_url === 'color') {
-                    $cat_arr['color'] = $item;
-                }
-                if ($item->seo_url === 'category') {
-                    $cat_arr['category'] = $item;
+                if ($item->parent->id === $item->parent_id) {
+                    $cat_arr[$item->parent->seo_url][$k] = $item;
                 }
             }
         }
         return view('Suits::fabrics.create', compact('product_id', 'cat_arr'));
     }
 
-    public function storeFabric(Request $request, $id)
+    public function storeFabric(Request $request)
     {
         $request->validate(
             [
@@ -111,26 +101,14 @@ class FabricController extends Controller
 
     public function editFabric($id)
     {
-        $categories = Category::with('trans')
+        $categories = SuitCategory::with('parent')
+            ->where('parent_id', '!=', 0)
             ->get();
-//        dd($item);
         $cat_arr = [];
         if (isset($categories)) {
             foreach ($categories as $k => $item) {
-                if ($item->seo_url === 'material') {
-                    $cat_arr['material'] = $item;
-                }
-                if ($item->seo_url === 'pattern') {
-                    $cat_arr['pattern'] = $item;
-                }
-                if ($item->seo_url === 'season') {
-                    $cat_arr['season'] = $item;
-                }
-                if ($item->seo_url === 'color') {
-                    $cat_arr['color'] = $item;
-                }
-                if ($item->seo_url === 'category') {
-                    $cat_arr['category'] = $item;
+                if ($item->parent->id === $item->parent_id) {
+                    $cat_arr[$item->parent->seo_url][$k] = $item;
                 }
             }
         }

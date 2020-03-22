@@ -15,4 +15,5 @@ use Illuminate\Http\Request;
 
 Route::group(['middleware' => ['api'], 'prefix' => 'api/{key}'], function() {
     Route::GET('get-suit-fabrics', 'Idib\Suits\Controllers\SuitApiController@getSuitFabrics');
+    Route::GET('get-suit-accent', 'Idib\Suits\Controllers\SuitApiController@getSuitAccent');
 });
