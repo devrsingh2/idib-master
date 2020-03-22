@@ -54,7 +54,7 @@
                     <div class="mdc-expansion-panel" id="ui-sub-menu">
                         <nav class="mdc-list mdc-drawer-submenu">
                             <div class="mdc-list-item mdc-drawer-item">
-                                <a class="mdc-drawer-link" href="{{ route('admin.categories', [1]) }}">
+                                <a class="mdc-drawer-link" href="{{ route('admin.suits.categories') }}">
                                     Categories
                                 </a>
                             </div>

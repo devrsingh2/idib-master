@@ -9,7 +9,10 @@
                         <div class="col-12 row">
                             <h6 style="float: left;" class="card-title card-padding mb-0 p-3">Accent Attribute</h6>
                             <h6 style="float: right;" class="card-title card-padding mb-0 p-3">
-                                <a href="{{ route('admin.suits.accents.add') }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded" title="Add Accent">
+                                <a href="{{ route('admin.suits.accents') }}" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded" title="Back To Accents">
+                                    <i class="material-icons mdc-button__icon">arrow_back</i>
+                                </a>
+                                <a href="{{ route('admin.suits.accent-attributes.add', [$items->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded" title="Add Accent">
                                     <i class="material-icons mdc-button__icon">add</i>
                                 </a>
                             </h6>
@@ -19,7 +22,8 @@
                                 <thead>
                                 <tr class="mdc-data-table__header-row">
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Name</th>
-                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Description</th>
+                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Image</th>
+                                    <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Accent</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Price</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">Status</th>
                                     <th class="mdc-data-table__header-cell" role="columnheader" scope="col">
@@ -28,11 +32,14 @@
                                 </tr>
                                 </thead>
                                 <tbody class="mdc-data-table__content">
-                                @if(isset($items))
-                                    @foreach($items as $k => $item)
+                                @if(isset($items->trans))
+                                    @foreach($items->trans as $k => $item)
                                         <tr data-row-id="u0" class="mdc-data-table__row">
                                             <td class="mdc-data-table__cell">{{ $item->name }}</td>
-                                            <td class="mdc-data-table__cell" id="u0">{{ $item->description }}</td>
+                                            <td class="mdc-data-table__cell" id="u0">
+                                                <img style="width: 100px;" src="{{ $item->image }}" />
+                                            </td>
+                                            <td class="mdc-data-table__cell" id="u0">{{ $items->name }}</td>
                                             <td class="mdc-data-table__cell" id="u0">{{ $item->price }}</td>
                                             <td class="mdc-data-table__cell">
                                                 <button
@@ -43,7 +50,7 @@
                                                 </button>
                                             </td>
                                             <td class="mdc-data-table__cell">
-                                                <a href="{{ route('admin.suits.accents.edit', [$item->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
+                                                <a href="{{ route('admin.suits.accent-attributes.edit', [$items->id, $item->id]) }}" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">edit</i>
                                                 </a>
                                                 {{--<button class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">

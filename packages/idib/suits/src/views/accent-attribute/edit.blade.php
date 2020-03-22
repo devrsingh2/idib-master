@@ -14,17 +14,22 @@
 @section('content')
     <main class="content-wrapper">
         <div class="mdc-layout-grid">
-            <form name="frm_add_accent" method="post" action="{{ route('admin.suits.accents.update', [$item->id]) }}" enctype="multipart/form-data">
+            <form name="frm_add_accent" method="post"
+                  action="{{ route('admin.suits.accent-attributes.update', [$accent->id, $item->id]) }}"
+                  enctype="multipart/form-data"
+            >
                 @csrf
                 <div class="mdc-layout-grid__inner">
                     <div class="mdc-layout-grid__cell--span-12">
                         <div class="mdc-card">
-                            <h6 class="card-title">Edit Accent</h6>
+                            <h6 class="card-title">Edit Accent Attribute</h6>
                             <div class="template-demo">
                                 <div class="mdc-layout-grid__inner">
+
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-                                        <div type="text" class="mdc-text-field mdc-text-field--outlined">
-                                            <input class="mdc-text-field__input" id="accent_name" name="accent_name" value="{{ $item->name }}" />
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" readonly id="accent_name" name="accent_name" value="{{ $accent->name }}" />
+                                            <input type="hidden" id="accent_id" name="accent_id" value="{{ $accent->id }}" />
                                             <div class="mdc-notched-outline mdc-notched-outline--upgraded">
                                                 <div class="mdc-notched-outline__leading"></div>
                                                 <div class="mdc-notched-outline__notch" style="">
@@ -39,18 +44,36 @@
                                         </div>
                                         @enderror
                                     </div>
+
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
-                                        <div type="text" class="mdc-text-field mdc-text-field--outlined">
-                                            <input class="mdc-text-field__input" id="accent_description" name="accent_description" value="{{ $item->description }}" />
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" id="attribute_name" name="attribute_name" value="{{ $item->name }}" />
                                             <div class="mdc-notched-outline mdc-notched-outline--upgraded">
                                                 <div class="mdc-notched-outline__leading"></div>
                                                 <div class="mdc-notched-outline__notch" style="">
-                                                    <label for="accent_description" class="mdc-floating-label" style="">Accent Description</label>
+                                                    <label for="attribute_name" class="mdc-floating-label" style="">Attribute Name</label>
                                                 </div>
                                                 <div class="mdc-notched-outline__trailing"></div>
                                             </div>
                                         </div>
-                                        @error('accent_description')
+                                        @error('attribute_name')
+                                        <div class="mdc-text-field-helper-line">
+                                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
+                                        </div>
+                                        @enderror
+                                    </div>
+                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" id="attribute_description" name="attribute_description" value="{{ $item->description }}" />
+                                            <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                                                <div class="mdc-notched-outline__leading"></div>
+                                                <div class="mdc-notched-outline__notch" style="">
+                                                    <label for="attribute_description" class="mdc-floating-label" style="">Attribute Description</label>
+                                                </div>
+                                                <div class="mdc-notched-outline__trailing"></div>
+                                            </div>
+                                        </div>
+                                        @error('attribute_description')
                                         <div class="mdc-text-field-helper-line">
                                             <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
                                         </div>
@@ -59,41 +82,42 @@
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
                                             <i class="material-icons mdc-text-field__icon">attach_money</i>
-                                            <input type="number" min="0" step="any" class="mdc-text-field__input" id="accent_price" name="accent_price" value="{{ $item->price }}" />
+                                            <input type="number" min="0" step="any" class="mdc-text-field__input" id="attribute_price" name="attribute_price" value="{{ $item->price }}" />
                                             <div class="mdc-notched-outline mdc-notched-outline--upgraded">
                                                 <div class="mdc-notched-outline__leading"></div>
                                                 <div class="mdc-notched-outline__notch" style="">
-                                                    <label for="accent_price" class="mdc-floating-label" style="">Accent Price</label>
+                                                    <label for="attribute_price" class="mdc-floating-label" style="">Attribute Price</label>
                                                 </div>
                                                 <div class="mdc-notched-outline__trailing"></div>
                                             </div>
                                         </div>
-                                        @error('accent_price')
+                                        @error('attribute_price')
                                         <div class="mdc-text-field-helper-line">
                                             <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
                                         </div>
                                         @enderror
                                     </div>
-                                    {{--<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+
+                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
                                             <i class="material-icons mdc-text-field__icon">attachment</i>
-                                            <input type="file" class="mdc-text-field__input accent-thumb-btn" id="accent_thumb" name="accent_thumb" />
+                                            <input type="file" class="mdc-text-field__input accent-thumb-btn" id="attribute_image" name="attribute_image" />
                                             <div class="mdc-notched-outline mdc-notched-outline--upgraded">
                                                 <div class="mdc-notched-outline__leading"></div>
                                                 <div class="mdc-notched-outline__notch" style="">
-                                                    <label for="accent_thumb" class="mdc-floating-label" style="">Accent Image (100 x 100)</label>
+                                                    <label for="attribute_image" class="mdc-floating-label" style="">Attribute Image</label>
                                                 </div>
                                                 <div class="mdc-notched-outline__trailing"></div>
                                             </div>
                                         </div>
-                                        @error('accent_thumb')
+                                        @error('attribute_image')
                                         <div class="mdc-text-field-helper-line">
                                             <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
                                         </div>
                                         @enderror
-                                        --}}{{--<img id="thumb_image" style="padding: 2px;" src="#" alt=""/>--}}{{--
-                                        <img id="thumb_image" style="padding: 2px; width: 64px; height: 64px;" src= "{{asset('tool/images/accent/suit')}}/{{$item->accent_image}}">
-                                    </div>--}}
+                                        <img id="attribute_image_disp" style="padding: 2px; width: 100px;" src="{{$item->image}}" alt=""/>
+                                    </div>
+
 
                                     <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-form-field">
@@ -139,56 +163,24 @@
         function readURL(input) {
             if (input.files && input.files[0]) {
                 var reader = new FileReader();
+
                 reader.onload = function(e) {
-                    $('#thumb_image')
-                        .attr('src', e.target.result)
-                        .width('64px')
-                        .height('64px');
+                    $('#attribute_image_disp').attr('src', e.target.result)
+                        .width('100px');
                 }
                 reader.readAsDataURL(input.files[0]);
             }
         }
-        function readMediumThumbURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-                reader.onload = function(e) {
-                    $('#medium_image')
-                        .attr('src', e.target.result)
-                        .width('64px')
-                        .height('64px');
-                }
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-        function readLargeThumbURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
-                reader.onload = function(e) {
-                    $('#large_image')
-                        .attr('src', e.target.result)
-                        .width('64px')
-                        .height('64px');
-                }
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
-        //
-        $(document).ready(function () {
-//            $('#thumb_image').hide();
-            $("#accent_thumb").change(function() {
-//                $('#thumb_image').show();
-                readURL(this);
-            });
-//            $('#medium_image').hide();
-            $("#medium_thumb").change(function() {
-//                $('#medium_image').show();
-                readMediumThumbURL(this);
-            });
-//            $('#large_image').hide();
-            $("#large_thumb_image").change(function() {
-//                $('#large_image').show();
-                readLargeThumbURL(this);
-            });
+
+        $("#attribute_image").change(function() {
+            $("#attribute_image_disp").show();
+            readURL(this);
+        });
+        $(document).ready(function() {
+            //$('#loader_IDIB').hide(3000);
+            $('.dashboard').addClass('active');
+            $('.product').removeClass('active');
+            $('.drop-down-idib').removeClass('active');
         });
     </script>
 @endsection

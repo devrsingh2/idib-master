@@ -10,4 +10,6 @@ return [
     |
     */
     'test' => 'suits',
+//    'suit_path' => __DIR__.'/tool/',
+    'suit_path' => base_path() . '/packages/idib/suits/src/tool/',
 ];

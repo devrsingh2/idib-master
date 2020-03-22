@@ -1,0 +1,25 @@
+[
+   {
+      "suitformallapels_id":"1",
+      "title":"Single Breasted Notch Slim",
+      "class":"icon-icon-145",
+      "thumb":"glow_mask\/vestpocket\/Pocket_Regular_Flap.png",
+      "price":"10.00",
+      "upper_left_glow_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UL_shad.png",
+      "upper_left_mask_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UL_mask.png",
+      "upper_left_hi_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UL_hi.png",
+      "upper_right_glow_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UR_shad.png",
+      "upper_right_mask_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UR_mask.png",
+      "upper_right_hi_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_UR_hi.png",
+      "lower_left_glow_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LL_shad.png",
+      "lower_left_mask_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LL_mask.png",
+      "lower_left_hi_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LL_hi.png",
+      "lower_right_glow_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LR_shad.png",
+      "lower_right_mask_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LR_mask.png",
+      "lower_right_hi_image":"glow_mask\/suitformallapel\/notch\/Notch_SB_Slim_LR_hi.png",
+      "style":"1",
+      "lapel":"1",
+      "size":"1",
+      "status":"1"
+   }
+]

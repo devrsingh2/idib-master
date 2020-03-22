@@ -13,9 +13,6 @@ use Illuminate\Http\Request;
 |
 */
 
-$locale = \Request::segment(1);
-
-/*Route::group(['middleware' => ['api'], 'prefix' => $locale.'/api/{key}'], function() {
-    Route::GET('bank-information', 'Idib\Settings\Controllers\SettingsApiController@bankInformation');
-    Route::GET('main-information', 'Idib\Settings\Controllers\SettingsApiController@mainInformation');
-});*/
+Route::group(['middleware' => ['api'], 'prefix' => 'api/{key}'], function() {
+    Route::GET('get-suit-fabrics', 'Idib\Suits\Controllers\SuitApiController@getSuitFabrics');
+});

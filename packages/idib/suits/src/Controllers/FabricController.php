@@ -2,18 +2,18 @@
 
 namespace Idib\Suits\Controllers;
 
-use App\Helpers\GlowMaskImageGenerator;
+use Idib\Suits\Helpers\GlowMaskImageGenerator;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
-use App\Models\Fabric;
+use Idib\Suits\Models\SuitFabric;
 
 class FabricController extends Controller
 {
     public function index($id = '')
     {
         $product_id = $id;
-        $items = Fabric::all();
+        $items = SuitFabric::all();
         return view('Suits::fabrics.index', compact('product_id', 'items'));
     }
 
@@ -84,7 +84,7 @@ class FabricController extends Controller
             $file_thumb->move($destinationPath_thumb, $fileName_thumb);
             $file_thumb_large->move($destinationPath_large_thumb, $fileName_large_thumb);
         }
-        $fabric = new Fabric();
+        $fabric = new SuitFabric();
         $fabric->product_id = 1;
         $fabric->name = $request->fabric_name;
         $fabric->description = isset($request->description) ? $request->description : '';
@@ -134,7 +134,7 @@ class FabricController extends Controller
                 }
             }
         }
-        $item = Fabric::find($id);
+        $item = SuitFabric::find($id);
         return view('Suits::fabrics.edit', compact('item', 'cat_arr'));
     }
 
@@ -183,7 +183,7 @@ class FabricController extends Controller
             $file_thumb_large->move($destinationPath_large_thumb, $fileName_large_thumb);
         }
 
-        $fabric = Fabric::find($id);
+        $fabric = SuitFabric::find($id);
         $fabric->name = $request->fabric_name;
         $fabric->description = isset($request->description) ? $request->description : '';
         $fabric->fabric_image = isset($fileName) ? $fileName : $fabric->fabric_image;

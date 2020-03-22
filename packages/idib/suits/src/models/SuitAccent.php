@@ -20,7 +20,9 @@ class SuitAccent extends Model
      */
     public function trans()
     {
-        return $this->hasMany('\Idib\Suits\Models\SuitAccentAttribute', 'accent_id')->select("*");
+        return $this->hasMany('\Idib\Suits\Models\SuitAccentAttribute', 'accent_id')
+            ->select("*")
+            ->orderBy('order_id', 'asc');
     }
 
 }

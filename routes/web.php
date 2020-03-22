@@ -30,17 +30,17 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::get('/orders', 'OrderController@index')->name('admin.orders');
 
     //categories
-    Route::get('/{id}/categories', 'CategoryController@index')->name('admin.categories');
-//    Route::get('/{id}/categories/add', 'CategoryController@addCategory')->name('admin.categories.add');
-    Route::get('/{pid}/categories/edit/{id}', 'CategoryController@editCategory')->name('admin.categories.edit');
-    Route::post('/{pid}/categories/update/{id}', 'CategoryController@updateCategory')->name('admin.categories.update');
+    Route::get('/suits/categories', '\Idib\Suits\Controllers\CategoryController@index')->name('admin.suits.categories');
+//    Route::get('/suits/categories/add', '\Idib\Suits\Controllers\CategoryController@addCategory')->name('admin.suits.categories.add');
+    Route::get('/suits/categories/edit/{id}', '\Idib\Suits\Controllers\CategoryController@editCategory')->name('admin.suits.categories.edit');
+    Route::post('/suits/categories/update/{id}', '\Idib\Suits\Controllers\CategoryController@updateCategory')->name('admin.suits.categories.update');
     //sub-categories
-    Route::get('/{pid}/categories/{id}/sub-categories', 'CategoryController@subCategories')->name('admin.categories.sub-categories');
-    Route::get('/{pid}/categories/{id}/sub-categories/add', 'CategoryController@addSubCategory')->name('admin.categories.sub-categories.add');
-    Route::post('/{pid}/categories/{id}/sub-categories', 'CategoryController@storeSubCategory')->name('admin.categories.sub-categories.submit');
-    Route::get('/{pid}/categories/{cid}/sub-categories/{id}/edit', 'CategoryController@editSubCategory')->name('admin.categories.sub-categories.edit');
-    Route::get('/{pid}/categories/{cid}/sub-categories/{id}/delete', 'CategoryController@deleteSubCategory')->name('admin.categories.sub-categories.delete');
-//    Route::post('/{pid}/categories/update/{id}', 'CategoryController@updateCategory')->name('admin.categories.update');
+    Route::get('/suits/categories/{id}/sub-categories', '\Idib\Suits\Controllers\CategoryController@subCategories')->name('admin.suits.categories.sub-categories');
+    Route::get('/suits/categories/{id}/sub-categories/add', '\Idib\Suits\Controllers\CategoryController@addSubCategory')->name('admin.suits.categories.sub-categories.add');
+    Route::post('/suits/categories/{id}/sub-categories', '\Idib\Suits\Controllers\CategoryController@storeSubCategory')->name('admin.suits.categories.sub-categories.submit');
+    Route::get('/suits/categories/{cid}/sub-categories/{id}/edit', '\Idib\Suits\Controllers\CategoryController@editSubCategory')->name('admin.suits.categories.sub-categories.edit');
+    Route::post('/suits/categories/{cid}/sub-categories/{id}/update', '\Idib\Suits\Controllers\CategoryController@updateSubCategory')->name('admin.suits.categories.sub-categories.update');
+    Route::get('/suits/categories/{cid}/sub-categories/{id}/delete', '\Idib\Suits\Controllers\CategoryController@deleteSubCategory')->name('admin.suits.categories.sub-categories.delete');
 
     Route::get('/suits/fabrics', '\Idib\Suits\Controllers\FabricController@index')->name('admin.suits.fabrics');
     Route::get('/suits/fabrics/add', '\Idib\Suits\Controllers\FabricController@addFabric')->name('admin.suits.fabrics.add');

@@ -16,6 +16,7 @@ class CreateSuitAccentsTable extends Migration
         Schema::create('suit_accents', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('name');
+            $table->string('accent_url');
             $table->longText('description')->nullable();
             $table->string('class_name')->nullable();
             $table->float('price');

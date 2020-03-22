@@ -75,7 +75,7 @@
                                         </div>
                                         @enderror
                                         {{--<img id="thumb_image" style="padding: 2px;" src="#" alt=""/>--}}
-                                        <img id="thumb_image" style="padding: 2px; width: 64px; height: 64px;" src= "{{asset('tool/images/fabric/suit')}}/{{$item->fabric_image}}">
+                                        <img id="thumb_image" style="padding: 2px; width: 64px; height: 64px;" src="{{asset('tool/images/fabric/suit')}}/{{$item->fabric_image}}">
                                     </div>
 
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
@@ -297,7 +297,7 @@
                                                         id="status"
                                                         name="status"
                                                         class="mdc-checkbox__native-control"
-                                                        checked
+                                                        {{ ($item->status === 1) ? 'checked' : '' }}
                                                 />
                                                 <div class="mdc-checkbox__background">
                                                     <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">

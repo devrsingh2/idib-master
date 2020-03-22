@@ -2,13 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3781ae-3f54-4094-9796-b0dee3e707c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/create.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Helpers/CommonHelper.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitCategory.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentAttributeTableSeeder.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Models/Category.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_130525_create_categories_table.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/database/migrations/2020_02_19_130645_create_sub_categories_table.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Helpers/GlowMaskImageGenerator.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Helpers/GlowMaskLiningImageGenerator.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskLiningImageGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Helpers/GlowMaskPocketSquareImageGenerator.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskPocketSquareImageGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Helpers/GlowMaskThreadImageGenerator.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskThreadImageGenerator.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Models/Fabric.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitFabric.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Models/SubCategory.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SubCategory.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/migrations/2020_02_17_112528_create_fabrics_table.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_suit_fabrics_table.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/SuitCategoriesTableSeeder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/packages/idib/suits/src/seeds/SettingsTableSeeder.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentTableSeeder.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/add-sub-category.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/add-sub-category.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/create.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit-sub-category.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/edit-sub-category.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/edit.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/index.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/categories/sub-categories.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/categories/sub-categories.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/display/suit/r3.jpeg" afterPath="$PROJECT_DIR$/public/tool/images/display/suit/r3.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/display/suit/r4.jpg" afterPath="$PROJECT_DIR$/public/tool/images/display/suit/r4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/node.jpeg" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/node.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/r6.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/r6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/large/suit/r6.png" afterPath="$PROJECT_DIR$/public/tool/images/large/suit/r6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/large/suit/reactjs.jpg" afterPath="$PROJECT_DIR$/public/tool/images/large/suit/reactjs.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsApiController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsApiController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/config/suits.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/config/suits.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/lang/ar/settings.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/lang/ar/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/lang/en/settings.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/lang/en/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/lang/hi/settings.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/lang/hi/settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/menus/admin_menu.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/menus/admin_menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/routes/web.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/create.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/edit.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/create.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/edit.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/index.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/accent/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/index.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/info.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/info.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,53 +70,66 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="60" column="112" lean-forward="false" selection-start-line="60" selection-start-column="112" selection-end-line="60" selection-end-column="112" />
+            <state relative-caret-position="187">
+              <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccentAttributeController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php">
+      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-              <folding />
+            <state relative-caret-position="34">
+              <caret line="142" column="5" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+              <folding>
+                <element signature="e#42#78#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SuitAccent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+      <file leaf-file-name="edit-sub-category.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/edit-sub-category.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="238">
+              <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php">
+        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="110" lean-forward="false" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
+            <state relative-caret-position="85">
+              <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/api.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -74,26 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>api_grant_mode</find>
-      <find>website</find>
-      <find>getLogout</find>
-      <find>Hoverable Table</find>
-      <find>asset_url</find>
-      <find>ToastrServiceProvider</find>
-      <find>Toastr</find>
-      <find>mdc-text-field-helper-line</find>
-      <find>display_image</find>
-      <find>large_image</find>
-      <find>$productColor</find>
-      <find>addNewColor</find>
-      <find>mdc-text-field</find>
-      <find>uistacks</find>
-      <find>Settings</find>
-      <find>SuitsController</find>
-      <find>settings</find>
-      <find>HOME</find>
-      <find>Uistacks</find>
-      <find>api/user</find>
       <find>loadRoutesFrom</find>
       <find>admin.fabrics</find>
       <find>getProductColor</find>
@@ -104,6 +149,26 @@
       <find>Fabric</find>
       <find>fabric</find>
       <find>accents</find>
+      <find>thread_thumb_disp</find>
+      <find>attribute_image_disp</find>
+      <find>addNewThread</find>
+      <find>mergeConfigFrom</find>
+      <find>base_path() . '/customize/</find>
+      <find>base_path() . &quot;/customize/</find>
+      <find>base_path().'/customize/</find>
+      <find>custo</find>
+      <find>json</find>
+      <find>suit/JSON</find>
+      <find>suit/</find>
+      <find>dd(</find>
+      <find>settings</find>
+      <find>suit_accents</find>
+      <find>customize\/suit\/</find>
+      <find>base_path(). &quot;/customize/suit/</find>
+      <find>base_path().&quot;/customize/suit/</find>
+      <find>Category</find>
+      <find>product_id</find>
+      <find>editSubCategory</find>
     </findStrings>
     <replaceStrings>
       <replace>{{ asset('website-assets/</replace>
@@ -123,6 +188,15 @@
       <replace>Accent</replace>
       <replace>accent</replace>
       <replace>accent-attributes</replace>
+      <replace>attribute_image_disp</replace>
+      <replace>media/men/</replace>
+      <replace>$tool_path . '</replace>
+      <replace>suit_accents</replace>
+      <replace>suit_accent_attributes</replace>
+      <replace>$tool_path.&quot;</replace>
+      <replace>$tool_path.'</replace>
+      <replace>SuitCategory</replace>
+      <replace>parent_id</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/packages/idib/shopify/src</dir>
@@ -138,57 +212,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/admin/includes/head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/fabrics/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/fabrics/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/fabrics/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FabricController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/README.md" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/config/settings.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/composer.json" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/controllers/SettingsController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/FabricsController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/controllers/FabricController.php" />
-        <option value="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/config/core.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/config/idib.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/composer.json" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/controllers/CategoryController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/controllers/OrderController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/CoreServiceProvider.php" />
-        <option value="$PROJECT_DIR$/packages/idib/core/src/routes/web.php" />
-        <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
         <option value="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2017_01_23_000000_create_settings_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/web.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent/create.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_17_112528_create_fabrics_table.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent/edit.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent/index.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/sub-categories.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/create.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/edit.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/config/suits.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentTableSeeder.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentAttributeTableSeeder.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/tool/JSON/Generation/ThreadJson.json" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskThreadImageGenerator.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskLiningImageGenerator.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskPocketSquareImageGenerator.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/Fabric.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitFabric.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_fabrics_table.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_suit_fabrics_table.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/Category.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_19_130525_create_suit_categories_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/SuitCategoriesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/categories/index.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Helpers/CommonHelper.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/categories/add-sub-category.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitCategory.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/categories/sub-categories.blade.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/categories/edit-sub-category.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/CategoryController.php" />
       </list>
     </option>
   </component>
@@ -234,13 +308,7 @@
             <path>
               <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Models" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
@@ -285,32 +353,6 @@
               <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="accent-attribute" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="categories" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
@@ -327,17 +369,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/models" />
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/views" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/migrations" />
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/Helpers" />
       <recent name="$PROJECT_DIR$/packages/idib/shopify/src/routes" />
-      <recent name="$PROJECT_DIR$/packages/idib/shopify/src" />
-      <recent name="$PROJECT_DIR$/resources/views/website" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/Helpers" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/Controllers" />
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/seeds" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/views" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/models" />
-      <recent name="$PROJECT_DIR$/packages/idib/core/src/controllers" />
-      <recent name="$PROJECT_DIR$/resources/views/admin/fabrics" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -378,26 +421,33 @@
       <workItem from="1584495042409" duration="4425000" />
       <workItem from="1584504947695" duration="6357000" />
       <workItem from="1584515450809" duration="6617000" />
-      <workItem from="1584545291820" duration="2301000" />
+      <workItem from="1584545291820" duration="2357000" />
+      <workItem from="1584591797092" duration="9962000" />
+      <workItem from="1584612933292" duration="4057000" />
+      <workItem from="1584667534402" duration="7582000" />
+      <workItem from="1584688370519" duration="2067000" />
+      <workItem from="1584698753279" duration="4378000" />
+      <workItem from="1584754178960" duration="7613000" />
+      <workItem from="1584840402778" duration="3547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124061000" />
+    <option name="totallyTimeSpent" value="163323000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="44" width="1315" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2639874" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29708433" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32736155" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -443,94 +493,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="56" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/config/core.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/config/idib.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/composer.json" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/AdminController.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/CategoryController.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/DashboardController.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/OrderController.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/ProductController.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/controllers/UserController.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/ServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="74" column="23" lean-forward="false" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/CoreServiceProvider.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/core/src/routes/web.php" />
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="170" column="43" lean-forward="false" selection-start-line="170" selection-start-column="43" selection-end-line="170" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="38" column="28" lean-forward="false" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="95" lean-forward="true" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" lean-forward="true" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="74" column="8" lean-forward="false" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/shopify/src/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/shopify/src/ShopifyServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -566,14 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -581,45 +535,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="12" lean-forward="false" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers/GlowMaskImageGenerator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3400">
-          <caret line="204" column="45" lean-forward="false" selection-start-line="204" selection-start-column="45" selection-end-line="204" selection-end-column="45" />
-          <folding>
-            <element signature="e#42#81#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2017_01_23_000000_create_settings_table.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="66" column="94" lean-forward="false" selection-start-line="66" selection-start-column="94" selection-end-line="66" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="98" lean-forward="false" selection-start-line="16" selection-start-column="98" selection-end-line="16" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -631,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="97" lean-forward="false" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -642,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -656,92 +564,299 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_02_17_112528_create_fabrics_table.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="30" column="36" lean-forward="false" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
+        <state relative-caret-position="475">
+          <caret line="48" column="100" lean-forward="false" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="331" column="24" lean-forward="false" selection-start-line="331" selection-start-column="24" selection-end-line="332" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="169" column="39" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="200">
+          <caret line="105" column="56" lean-forward="false" selection-start-line="105" selection-start-column="56" selection-end-line="105" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="e#42#81#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="344" column="44" lean-forward="true" selection-start-line="344" selection-start-column="44" selection-end-line="344" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="119">
+          <caret line="17" column="98" lean-forward="false" selection-start-line="17" selection-start-column="98" selection-end-line="17" selection-end-column="98" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="48" column="100" lean-forward="false" selection-start-line="48" selection-start-column="100" selection-end-line="48" selection-end-column="100" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="49" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="203">
+          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="110" lean-forward="false" selection-start-line="9" selection-start-column="110" selection-end-line="9" selection-end-column="110" />
-          <folding />
+        <state relative-caret-position="68">
+          <caret line="11" column="194" lean-forward="false" selection-start-line="11" selection-start-column="194" selection-end-line="11" selection-end-column="194" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="60" column="112" lean-forward="false" selection-start-line="60" selection-start-column="112" selection-end-line="60" selection-end-column="112" />
+        <state relative-caret-position="192">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Models/Category.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/config/suits.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="221">
+          <caret line="13" column="32" lean-forward="false" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitAccentAttributeTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="95" column="13" lean-forward="false" selection-start-line="56" selection-start-column="8" selection-end-line="95" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ToolController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24021">
+          <caret line="1444" column="5" lean-forward="false" selection-start-line="1444" selection-start-column="5" selection-end-line="1444" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/tool/JSON/getSuitAccent.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/tool/JSON/Generation/ThreadJson.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskThreadImageGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/tool/JSON/Generation/Suit_Style.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-983">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskLiningImageGenerator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="24" column="47" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskPocketSquareImageGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentAttributeController.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_suit_fabrics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitFabric.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
+          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/AccentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="56" column="98" lean-forward="false" selection-start-line="56" selection-start-column="98" selection-end-line="56" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_16_130525_create_suit_categories_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="41" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="46" lean-forward="true" selection-start-line="13" selection-start-column="46" selection-end-line="14" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/SuitCategoriesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="48" lean-forward="false" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/CommonHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/add-sub-category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="98" column="100" lean-forward="false" selection-start-line="98" selection-start-column="100" selection-end-line="98" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitCategory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="26" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/sub-categories.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="38" column="100" lean-forward="false" selection-start-line="38" selection-start-column="100" selection-end-line="38" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/categories/edit-sub-category.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="135" lean-forward="false" selection-start-line="21" selection-start-column="135" selection-end-line="21" selection-end-column="135" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/CategoryController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="142" column="5" lean-forward="false" selection-start-line="142" selection-start-column="5" selection-end-line="142" selection-end-column="5" />
+          <folding>
+            <element signature="e#42#78#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

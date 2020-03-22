@@ -2,6 +2,7 @@
 
 namespace Idib\Suits\Controllers;
 
+use App\Helpers\GeneralHelper;
 use App\Helpers\GlowMaskImageGenerator;
 use Idib\Suits\Models\SuitAccent;
 use Illuminate\Http\Request;
@@ -40,6 +41,7 @@ class AccentController extends Controller
 
         $accent = new SuitAccent();
         $accent->name = $request->accent_name;
+        $accent->accent_url = GeneralHelper::seoUrl($request->accent_name);
         $accent->description = isset($request->accent_description) ? $request->accent_description : '';
         $accent->price = $request->accent_price;
         $accent->status = false;
