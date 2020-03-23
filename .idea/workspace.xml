@@ -2,407 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dc3781ae-3f54-4094-9796-b0dee3e707c0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_cuff_side.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_cuff_side.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_main_back.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_main_back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_main_back_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_main_back_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/fabric_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_left.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_right.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_upper_left.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_upper_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_upper_right.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lapel_fabric_upper_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_cuff_side.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_cuff_side.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_60.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_90.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_90.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_back.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_back.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_back_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_main_back_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_wave_left.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_wave_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_wave_right.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_wave_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/fabric_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_left.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_right.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_upper_left.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_upper_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_upper_right.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/lining/lapel_fabric_upper_right.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/pocketsquare/fabric_main.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/pocketsquare/fabric_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_main.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_main_back_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_main_back_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_zoom.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/fab_suit_images/thread/fabric_zoom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/1_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/1_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/1_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/1_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/2_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/2_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/2_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/backcollar/2_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/breastpocket/1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/breastpocket/1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/breastpocket/2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/breastpocket/2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_style_7_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_style_7_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_6_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_6_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_7_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/1_styletype_7_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_style_7_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_style_7_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_6_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_6_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_7_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/collar/2_styletype_7_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_1_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_2_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_1_style_3_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_1_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_2_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_2_style_3_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_1_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_2_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_4_style_3_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_1_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_2_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_5_style_3_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_1_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_2_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lapel/2_styletype_6_style_3_size_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_6_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_6_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_7_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/lining/10_styletype_7_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/1_pantbeltloops_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantbeltloops/2_pantbeltloops_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_pantcuff_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/1_style_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_pantcuff_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantcuff/2_style_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_5_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_5_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_6_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_6_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_6_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpleats/style_6_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_4_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantpockets/style_4_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/1_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pantstyle/2_style_3_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casual_pockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casualticketpockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casualticketpockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casualticketpockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_casualticketpockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_styletype_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_ticketpockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_ticketpockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_ticketpockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_ticketpockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casual_pockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casualticketpockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casualticketpockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casualticketpockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_casualticketpockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_styletype_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_ticketpockets_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_ticketpockets_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_ticketpockets_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_ticketpockets_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pockets/2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pocketsquare/8_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/pocketsquare/8_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/sleeves/2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/style/1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/style/1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_10_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_10_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_6_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_6_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_9_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_2_style_9_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_3_style_7_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_3_style_7_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_4_style_8_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_4_style_8_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_7_style_11_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/6_styletype_7_style_11_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_10_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_10_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_5_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_5_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_6_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_6_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_9_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_2_style_9_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_3_style_7_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_3_style_7_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_4_style_8_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_4_style_8_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_7_style_11_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/threads/7_styletype_7_style_11_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestbreastpocket/2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestcollar/1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestcollar/1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestcollar/2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestcollar/2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_1_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_4_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlapel/2_styletype_2_style_4_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlining/1_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlining/1_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlining/2_view_3.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestlining/2_view_3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/vestpockets/2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_1_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_2_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_3_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_style_4_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_1_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_2_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_3_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/1_styletype_4_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_1_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_2_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_3_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_style_4_bottom_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_1_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_2_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_3_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_1_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_1_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_1_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_1_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_2_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_2_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_2_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_2_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_3_view_1.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_3_view_1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_3_view_2.png" afterPath="$PROJECT_DIR$/packages/idib/suits/src/tool/media/men/generated_suit_images/veststyle/2_styletype_4_style_3_view_2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main_60.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main_60.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main_90.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_main_90.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_wave_left.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_wave_left.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_wave_right.png" afterPath="$PROJECT_DIR$/public/tool/images/fabric/suit/fabric_wave_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyle.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyleAttribute.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleAttributeTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleTableSeeder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/styles/create.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/styles/edit.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/styles/index.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsApiController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SettingsController.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ToolController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ToolController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/CategoryController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/CategoryController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" afterPath="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -427,8 +39,8 @@
       <file leaf-file-name="api.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="20" column="85" lean-forward="false" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
               <folding />
             </state>
           </provider>
@@ -437,28 +49,18 @@
       <file leaf-file-name="SuitApiController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="132" column="26" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="26" />
+            <state relative-caret-position="136">
+              <caret line="232" column="38" lean-forward="false" selection-start-line="232" selection-start-column="38" selection-end-line="232" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GlowMaskImageGenerator.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="106" column="89" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="89" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SuitAccent.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+      <file leaf-file-name="StyleController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/StyleController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -468,11 +70,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thumb_image</find>
-      <find>fabric_thumb</find>
-      <find>fabrics</find>
-      <find>fabric</find>
-      <find>accents</find>
       <find>thread_thumb_disp</find>
       <find>attribute_image_disp</find>
       <find>addNewThread</find>
@@ -486,7 +83,6 @@
       <find>suit/</find>
       <find>dd(</find>
       <find>settings</find>
-      <find>suit_accents</find>
       <find>customize\/suit\/</find>
       <find>base_path(). &quot;/customize/suit/</find>
       <find>base_path().&quot;/customize/suit/</find>
@@ -498,12 +94,14 @@
       <find>FabricJ</find>
       <find>product_category</find>
       <find>category</find>
+      <find>suit_accents</find>
+      <find>suit_styles</find>
+      <find>accent_url</find>
+      <find>$tool_accents</find>
+      <find>$accent</find>
+      <find>$getAccentTypeJson</find>
     </findStrings>
     <replaceStrings>
-      <replace>{{ asset('website-assets/</replace>
-      <replace>Idib\Shopify\</replace>
-      <replace>Idib\Shopify</replace>
-      <replace>admin</replace>
       <replace>large_thumb_image</replace>
       <replace>$fabric</replace>
       <replace>Suits</replace>
@@ -528,6 +126,12 @@
       <replace>parent_id</replace>
       <replace>suit_categories</replace>
       <replace>name</replace>
+      <replace>suit_styles</replace>
+      <replace>suit_style_attributes</replace>
+      <replace>seo_url</replace>
+      <replace>$tool_styles</replace>
+      <replace>$style</replace>
+      <replace>$getStyleTypeJson</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/packages/idib/shopify/src</dir>
@@ -543,13 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminController.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/SuitsServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php" />
-        <option value="$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2017_01_23_000000_create_settings_table.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/web.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/views/accent/create.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_02_17_112528_create_fabrics_table.php" />
@@ -591,8 +188,15 @@
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/create.blade.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/FabricController.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/views/fabrics/edit.blade.php" />
-        <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/StyleController.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_23_065231_create_suit_styles_table.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_23_065256_create_suit_style_attributes_table.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleAttributeTableSeeder.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyle.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyleAttribute.php" />
+        <option value="$PROJECT_DIR$/packages/idib/suits/src/routes/api.php" />
         <option value="$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php" />
       </list>
     </option>
@@ -628,7 +232,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -650,58 +253,48 @@
             <path>
               <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Http" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Helpers" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="database" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="seeds" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="idib-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="idib" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suits" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controllers" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="idib-master" type="b2602c69:ProjectViewProjectNode" />
@@ -716,6 +309,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -726,18 +320,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/migrations" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/models" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/views" />
-      <recent name="$PROJECT_DIR$/packages/idib/suits/src/migrations" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/Helpers" />
       <recent name="$PROJECT_DIR$/packages/idib/shopify/src/routes" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/seeds" />
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/models" />
+      <recent name="$PROJECT_DIR$/packages/idib/suits/src/views" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/Helpers" />
       <recent name="$PROJECT_DIR$/packages/idib/suits/src/Controllers" />
-      <recent name="$PROJECT_DIR$/packages/idib/suits/src/seeds" />
-      <recent name="$PROJECT_DIR$/packages/idib/suits/src/views" />
-      <recent name="$PROJECT_DIR$/packages/idib/suits/src/models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -786,18 +380,20 @@
       <workItem from="1584698753279" duration="4378000" />
       <workItem from="1584754178960" duration="7613000" />
       <workItem from="1584840402778" duration="4194000" />
-      <workItem from="1584866458532" duration="11463000" />
+      <workItem from="1584866458532" duration="11737000" />
+      <workItem from="1584937231684" duration="2185000" />
+      <workItem from="1584946095471" duration="11580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175433000" />
+    <option name="totallyTimeSpent" value="189464000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="59" y="44" width="1315" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30181244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23325454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -809,13 +405,24 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3251634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31205675" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -851,74 +458,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/packages/idib/shopify/src/ShopifyServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="86" column="0" lean-forward="true" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/CheckForMaintenanceMode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/AdminMiddleware.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2017_01_23_000000_create_settings_table.php" />
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="97" lean-forward="false" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="24" column="37" lean-forward="false" selection-start-line="24" selection-start-column="37" selection-end-line="24" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -950,13 +493,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="18" column="38" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/accent-attribute/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -968,7 +504,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -997,7 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="47" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="23" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1012,7 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="24" column="47" lean-forward="false" selection-start-line="23" selection-start-column="8" selection-end-line="24" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,7 +553,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1028,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_suit_fabrics_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1084,7 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1113,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="42" column="4" lean-forward="false" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1121,9 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="51" lean-forward="false" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-          <folding>
-            <element signature="e#42#78#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1131,7 +651,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1139,25 +658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="130" column="99" lean-forward="false" selection-start-line="130" selection-start-column="99" selection-end-line="130" selection-end-column="99" />
-          <folding>
-            <marker date="1584871126931" expanded="true" signature="23757:24166" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="23806:24156" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="23899:24088" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24212:24622" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24261:24612" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24354:24544" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24667:25076" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24716:25066" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="24809:24998" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25115:25700" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25128:25699" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25205:25304" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25217:25303" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25384:25495" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25396:25494" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25579:25688" ph="..." />
-            <marker date="1584871126931" expanded="true" signature="25591:25687" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1165,7 +665,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="131" column="83" lean-forward="false" selection-start-line="131" selection-start-column="83" selection-end-line="131" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,9 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="2263" column="8" lean-forward="false" selection-start-line="2263" selection-start-column="8" selection-end-line="2282" selection-end-column="9" />
-          <folding>
-            <element signature="e#52#98#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1183,17 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="523">
           <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#88#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="31" lean-forward="false" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,6 +686,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1717">
+          <caret line="106" column="89" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/views/styles/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_02_17_112528_create_suit_fabrics_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062048_create_suit_accents_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="24" column="52" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="24" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_18_062125_create_suit_accent_attributes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -1213,34 +743,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="79" lean-forward="true" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccent.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleAttributeTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Helpers/GlowMaskImageGenerator.php">
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/seeds/SuitStyleTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="106" column="89" lean-forward="false" selection-start-line="106" selection-start-column="49" selection-end-line="106" selection-end-column="89" />
+        <state relative-caret-position="102">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_23_065231_create_suit_styles_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/migrations/2020_03_23_065256_create_suit_style_attributes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitAccentAttribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="78" lean-forward="false" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/StyleController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyleAttribute.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/models/SuitStyle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="61" lean-forward="false" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/routes/api.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="85" lean-forward="false" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/packages/idib/suits/src/Controllers/SuitApiController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="132" column="26" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="26" />
+        <state relative-caret-position="136">
+          <caret line="232" column="38" lean-forward="false" selection-start-line="232" selection-start-column="38" selection-end-line="232" selection-end-column="38" />
           <folding />
         </state>
       </provider>

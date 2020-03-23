@@ -6,6 +6,7 @@ use App\Helpers\GeneralHelper;
 use App\Helpers\GlowMaskImageGenerator;
 use Idib\Suits\Models\SuitAccent;
 use Idib\Suits\Models\SuitCategory;
+use Idib\Suits\Models\SuitStyle;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
@@ -95,6 +96,9 @@ class SuitApiController extends Controller
 
     }
 
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
     public function getSuitAccent()
     {
         $tool_accents = SuitAccent::with('trans')
@@ -138,4 +142,128 @@ class SuitApiController extends Controller
         $accent_data = $AllAccent;
         return response()->json($accent_data);
     }
+
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getSuitStyle()
+    {
+        $tool_styles = SuitStyle::with('trans')
+            ->where('designType', 'jacket')
+            ->where('status', 1)
+            ->get();
+
+        if (isset($tool_styles)) {
+            foreach ($tool_styles as $key => $item) {
+                $getStyleTypeJson = [];
+                if (isset($item->trans)) {
+                    foreach ($item->trans as $k => $attr) {
+                        $getStyleTypeJson[$k] = [
+                            'id' => $k+1,
+                            'parent' => $item->name,
+                            'designType' => $item->designType,
+                            'name' => $attr->name,
+                            'price' => $attr->price,
+                            'class' => $attr->class_name,
+                            'status' => $attr->status,
+                        ];
+                    }
+                }
+//                $getStyleTypeJson =
+                $style['id'] = $key+1;
+                $style['name'] = $item->name;
+                $style['class'] = $item->class_name;
+                $style['designType'] = 'jacket';
+                $style['price'] = $item->price;
+                $style['style'] = $getStyleTypeJson;
+                $all_styles[] = $style;
+            }
+        }
+
+        $style_data = array();
+        $style_data = $all_styles;
+        return response()->json($style_data);
+    }
+
+    /**
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function getSuitPant()
+    {
+        $tool_pant_styles = SuitStyle::with('trans')
+            ->where('designType', 'pant')
+            ->where('status', 1)
+            ->get();
+
+        if (isset($tool_pant_styles)) {
+            foreach ($tool_pant_styles as $key => $item) {
+                $getStyleTypeJson = [];
+                if (isset($item->trans)) {
+                    foreach ($item->trans as $k => $attr) {
+                        $getStyleTypeJson[$k] = [
+                            'id' => $k+1,
+                            'parent' => $item->name,
+                            'designType' => $item->designType,
+                            'name' => $attr->name,
+                            'price' => $attr->price,
+                            'class' => $attr->class_name,
+                            'status' => $attr->status,
+                        ];
+                    }
+                }
+//                $getStyleTypeJson =
+                $style['id'] = $key+1;
+                $style['name'] = $item->name;
+                $style['class'] = $item->class_name;
+                $style['designType'] = $item->designType;
+                $style['price'] = $item->price;
+                $style['style'] = $getStyleTypeJson;
+                $all_styles[] = $style;
+            }
+        }
+
+        $style_data = array();
+        $style_data = $all_styles;
+        return response()->json($style_data);
+    }
+
+    public function getSuitVest()
+    {
+        $tool_vest_styles = SuitStyle::with('trans')
+            ->where('designType', 'vest')
+            ->where('status', 1)
+            ->get();
+
+        if (isset($tool_vest_styles)) {
+            foreach ($tool_vest_styles as $key => $item) {
+                $getStyleTypeJson = [];
+                if (isset($item->trans)) {
+                    foreach ($item->trans as $k => $attr) {
+                        $getStyleTypeJson[$k] = [
+                            'id' => $k+1,
+                            'parent' => $item->name,
+                            'designType' => $item->designType,
+                            'name' => $attr->name,
+                            'price' => $attr->price,
+                            'class' => $attr->class_name,
+                            'status' => $attr->status,
+                        ];
+                    }
+                }
+//                $getStyleTypeJson =
+                $style['id'] = $key+1;
+                $style['name'] = $item->name;
+                $style['class'] = $item->class_name;
+                $style['designType'] = $item->designType;
+                $style['price'] = $item->price;
+                $style['style'] = $getStyleTypeJson;
+                $all_styles[] = $style;
+            }
+        }
+
+        $style_data = array();
+        $style_data = $all_styles;
+        return response()->json($style_data);
+    }
+
 }

@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
          $this->call(ProductsTableSeeder::class);
          $this->call(SuitCategoriesTableSeeder::class);*/
         /*$this->call(\Idib\Suits\Seeds\SuitAccentTableSeeder::class);
-        $this->call(\Idib\Suits\Seeds\SuitAccentAttributeTableSeeder::class);*/
+        $this->call(\Idib\Suits\Seeds\SuitAccentAttributeTableSeeder::class);
+        $this->call(\Idib\Suits\Seeds\SuitStyleTableSeeder::class);
+        $this->call(\Idib\Suits\Seeds\SuitStyleAttributeTableSeeder::class);*/
     }
 }
