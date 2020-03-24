@@ -63,6 +63,7 @@ class AccentAttributeController extends Controller
         $accent->name = $request->attribute_name;
         $accent->description = isset($request->attribute_description) ? $request->attribute_description : '';
         $accent->price = $request->attribute_price;
+//        $accent->image = url('/').'/tool/images/display/suit/'.$accentData->accent_url.'/'.$fileName;
         $accent->image = url('/').'/tool/images/display/suit/'.$accentData->accent_url.'/'.$fileName;
         $accent->status = false;
         if ($request->status) {

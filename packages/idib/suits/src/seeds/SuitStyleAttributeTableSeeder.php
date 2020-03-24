@@ -605,7 +605,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
         ]);
         //style 3
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 13,
+            'style_id' => 14,
             'name' => 'No Pocket',
             'parent' => 'vestpockets',
             'designType' => 'vest',
@@ -616,7 +616,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 1,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 13,
+            'style_id' => 14,
             'name' => 'Flap Pocket',
             'parent' => 'vestpockets',
             'designType' => 'vest',
@@ -627,7 +627,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 2,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 13,
+            'style_id' => 14,
             'name' => 'Welted Pocket',
             'parent' => 'vestpockets',
             'designType' => 'vest',
@@ -638,7 +638,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 3,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 13,
+            'style_id' => 14,
             'name' => 'Double welted pocket',
             'parent' => 'vestpockets',
             'designType' => 'vest',
@@ -650,7 +650,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
         ]);
         //style 4
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 14,
+            'style_id' => 15,
             'name' => 'Breast Pocket',
             'parent' => 'vestbreastpocket',
             'designType' => 'vest',
@@ -661,7 +661,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 1,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 14,
+            'style_id' => 15,
             'name' => 'Without Breast Pocket',
             'parent' => 'vestbreastpocket',
             'designType' => 'vest',
@@ -673,7 +673,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
         ]);
         //style 5
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 15,
+            'style_id' => 16,
             'name' => 'Straight',
             'parent' => 'vestedge',
             'designType' => 'vest',
@@ -684,7 +684,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 1,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 15,
+            'style_id' => 16,
             'name' => 'Diagonal',
             'parent' => 'vestedge',
             'designType' => 'vest',
@@ -695,7 +695,7 @@ class SuitStyleAttributeTableSeeder extends Seeder
             'order_id' => 2,
         ]);
         \DB::table('suit_style_attributes')->insert([
-            'style_id' => 15,
+            'style_id' => 16,
             'name' => 'Rounded',
             'parent' => 'vestedge',
             'designType' => 'vest',

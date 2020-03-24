@@ -5,6 +5,8 @@ namespace Idib\Suits\Controllers;
 use App\Helpers\GeneralHelper;
 use App\Helpers\GlowMaskImageGenerator;
 use Idib\Suits\Models\SuitAccent;
+use Idib\Suits\Models\SuitStyle;
+use Idib\Suits\Models\SuitStyleAttribute;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Category;
@@ -12,83 +14,59 @@ use App\Models\Fabric;
 
 class StyleController extends Controller
 {
-    public function index($id = '')
+    public function listJacketStyles()
     {
-        $product_id = $id;
-        $items = SuitAccent::all();
-        return view('Suits::accent.index', compact('product_id', 'items'));
+        $items = SuitStyle::where('designType', 'jacket')
+            ->get();
+        return view('Suits::styles.index', compact('items'));
     }
 
-    public function addAccent()
+    public function listJacketStyleAttributes($id)
     {
-        return view('Suits::accent.create');
+        $items = SuitStyleAttribute::where('designType', 'jacket')
+            ->where('style_id', $id)
+            ->get();
+        return view('Suits::styles.attribute-index', compact('id', 'items'));
     }
 
-    public function storeAccent(Request $request)
+    public function addJacketStyle($id)
     {
-        $request->validate(
-            [
-                'accent_name' => 'required',
-                'accent_description' => 'required',
-                'accent_price' => 'required',
-            ],
-            [
-                'accent_name.required' => 'Please enter accent name',
-                'accent_description.required' => 'Please enter accent description',
-                'accent_price.required' => 'Please enter accent price',
-            ]
-        );
-
-        $accent = new SuitAccent();
-        $accent->name = $request->accent_name;
-        $accent->accent_url = GeneralHelper::seoUrl($request->accent_name);
-        $accent->description = isset($request->accent_description) ? $request->accent_description : '';
-        $accent->price = $request->accent_price;
-        $accent->status = false;
-        if ($request->status) {
-            $accent->status = true;
-        }
-        $accent->save();
-        $accent->order_id = $accent->id;
-        $accent->save();
-
-        toastr()->success('Accent added successfully!');
-        return redirect()->route('admin.suits.accents');
+        return view('Suits::styles.create-attribute', compact('id', 'items'));
     }
 
-    public function editAccent($id)
+    public function editJacketStyle($sid, $id)
     {
-        $item = SuitAccent::find($id);
-        return view('Suits::accent.edit', compact('item'));
+        return view('Suits::styles.edit-attribute', compact('sid', 'items'));
     }
 
-    public function updateAccent(Request $request, $id)
+    public function listPantStyles()
     {
-        $request->validate(
-            [
-                'accent_name' => 'required',
-                'accent_description' => 'required',
-                'accent_price' => 'required',
-            ],
-            [
-                'accent_name.required' => 'Please enter accent name',
-                'accent_description.required' => 'Please enter accent description',
-                'accent_price.required' => 'Please enter accent price',
-            ]
-        );
+        $items = SuitStyle::where('designType', 'pant')
+            ->get();
+        return view('Suits::pant.index', compact('items'));
+    }
 
-        $accent = SuitAccent::find($id);
-        $accent->name = $request->accent_name;
-        $accent->description = isset($request->accent_description) ? $request->accent_description : '';
-        $accent->price = $request->accent_price;
-        $accent->status = false;
-        if ($request->status) {
-            $accent->status = true;
-        }
-        $accent->save();
+    public function listPantStyleAttributes($id)
+    {
+        $items = SuitStyleAttribute::where('designType', 'pant')
+            ->where('style_id', $id)
+            ->get();
+        return view('Suits::pant.attribute-index', compact('items'));
+    }
 
-        toastr()->success('Accent updated successfully!');
-        return redirect()->route('admin.suits.accents');
+    public function listVestStyles()
+    {
+        $items = SuitStyle::where('designType', 'vest')
+            ->get();
+        return view('Suits::vest.index', compact('items'));
+    }
+
+    public function listVestStyleAttributes($id)
+    {
+        $items = SuitStyleAttribute::where('designType', 'vest')
+            ->where('style_id', $id)
+            ->get();
+        return view('Suits::vest.attribute-index', compact('items'));
     }
 
 }

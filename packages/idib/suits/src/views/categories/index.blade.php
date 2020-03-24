@@ -42,9 +42,9 @@
                                                 {{--{{ ($item->status == 1 ? 'Active' : 'In Active') }}--}}
                                             </td>
                                             <td class="mdc-data-table__cell">
-                                                <a href="{{ route('admin.suits.categories.edit', [$item->id]) }}" title="Edit" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
+                                                {{--<a href="{{ route('admin.suits.categories.edit', [$item->id]) }}" title="Edit" class="mdc-button mdc-button--raised icon-button mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">edit</i>
-                                                </a>
+                                                </a>--}}
                                                 <a href="{{ route('admin.suits.categories.sub-categories', [$item->id]) }}" title="Sub Categories" class="mdc-button mdc-button--raised icon-button filled-button--secondary mdc-ripple-upgraded">
                                                     <i class="material-icons mdc-button__icon">pageview</i>
                                                 </a>

@@ -40,6 +40,23 @@
                                         @enderror
                                     </div>
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" id="fabric_type" name="fabric_type" value="{{ $item->fabric_type }}" />
+                                            <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                                                <div class="mdc-notched-outline__leading"></div>
+                                                <div class="mdc-notched-outline__notch" style="">
+                                                    <label for="fabric_type" class="mdc-floating-label" style="">Fabric Type</label>
+                                                </div>
+                                                <div class="mdc-notched-outline__trailing"></div>
+                                            </div>
+                                        </div>
+                                        @error('fabric_type')
+                                        <div class="mdc-text-field-helper-line">
+                                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
+                                        </div>
+                                        @enderror
+                                    </div>
+                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-leading-icon">
                                             <i class="material-icons mdc-text-field__icon">attach_money</i>
                                             <input type="number" min="0" step="any" class="mdc-text-field__input" id="fabric_price" name="fabric_price" value="{{ $item->price }}" />
@@ -120,7 +137,40 @@
                                         <img id="large_image" style="padding: 2px; width: 64px; height: 64px;" src= "{{asset('tool/images/large/suit')}}/{{$item->large_image}}">
                                     </div>
 
-
+                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" id="fabric_weight" name="fabric_weight" value="{{ $item->fabric_weight }}" />
+                                            <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                                                <div class="mdc-notched-outline__leading"></div>
+                                                <div class="mdc-notched-outline__notch" style="">
+                                                    <label for="fabric_weight" class="mdc-floating-label" style="">Fabric Weight</label>
+                                                </div>
+                                                <div class="mdc-notched-outline__trailing"></div>
+                                            </div>
+                                        </div>
+                                        @error('fabric_weight')
+                                        <div class="mdc-text-field-helper-line">
+                                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
+                                        </div>
+                                        @enderror
+                                    </div>
+                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                        <div class="mdc-text-field mdc-text-field--outlined">
+                                            <input class="mdc-text-field__input" id="composition" name="composition" value="{{ $item->composition }}" />
+                                            <div class="mdc-notched-outline mdc-notched-outline--upgraded">
+                                                <div class="mdc-notched-outline__leading"></div>
+                                                <div class="mdc-notched-outline__notch" style="">
+                                                    <label for="composition" class="mdc-floating-label" style="">Composition</label>
+                                                </div>
+                                                <div class="mdc-notched-outline__trailing"></div>
+                                            </div>
+                                        </div>
+                                        @error('composition')
+                                        <div class="mdc-text-field-helper-line">
+                                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
+                                        </div>
+                                        @enderror
+                                    </div>
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-select demo-width-class mt-2" data-mdc-auto-init="MDCSelect">
                                             <input type="hidden" name="material_parent">
@@ -184,15 +234,13 @@
                                         @enderror
                                     </div>
 
-                                    <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                    {{--<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-select demo-width-class mt-2" data-mdc-auto-init="MDCSelect">
                                             <input type="hidden" name="season_parent">
                                             <i class="mdc-select__dropdown-icon"></i>
                                             <div class="mdc-select__selected-text"></div>
                                             <div class="mdc-select__menu mdc-menu-surface demo-width-class">
                                                 <ul class="mdc-list">
-                                                    {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
-                                                    </li>--}}
                                                     @if(isset($cat_arr['season']))
                                                         @foreach(array_values($cat_arr['season']) as $k => $sp)
                                                             @if($sp->id == $item->season_parent)
@@ -202,9 +250,6 @@
                                                                     {{ $sp->name }}
                                                                 </li>
                                                             @endif
-                                                            {{--<li class="mdc-list-item" data-value="{{ $item->id }}">
-                                                                {{ $item->name }}
-                                                            </li>--}}
                                                         @endforeach
                                                     @endif
                                                 </ul>
@@ -217,7 +262,7 @@
                                             <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
                                         </div>
                                         @enderror
-                                    </div>
+                                    </div>--}}
 
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-select demo-width-class mt-2" data-mdc-auto-init="MDCSelect">
@@ -256,13 +301,40 @@
 
                                     <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-select demo-width-class mt-2" data-mdc-auto-init="MDCSelect">
+                                            <input type="hidden" name="collection_parent">
+                                            <i class="mdc-select__dropdown-icon"></i>
+                                            <div class="mdc-select__selected-text"></div>
+                                            <div class="mdc-select__menu mdc-menu-surface demo-width-class">
+                                                <ul class="mdc-list">
+                                                    @if(isset($cat_arr['collection']))
+                                                        @foreach(array_values($cat_arr['collection']) as $k => $cp)
+                                                            @if($cp->id == $item->collection_parent)
+                                                                <li class="mdc-list-item mdc-list-item--selected" data-value="{{ $cp->id }}" aria-selected="true">{{ $cp->name }}</li>
+                                                            @else
+                                                                <li class="mdc-list-item" data-value="{{ $cp->id }}">
+                                                                    {{ $cp->name }}
+                                                                </li>
+                                                            @endif
+                                                        @endforeach
+                                                    @endif
+                                                </ul>
+                                            </div>
+                                            <span class="mdc-floating-label">Collection Parent</span>
+                                            <div class="mdc-line-ripple"></div>
+                                        </div>
+                                        @error('collection_parent')
+                                        <div class="mdc-text-field-helper-line">
+                                            <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
+                                        </div>
+                                        @enderror
+                                    </div>
+                                    {{--<div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                                        <div class="mdc-select demo-width-class mt-2" data-mdc-auto-init="MDCSelect">
                                             <input type="hidden" name="category_parent">
                                             <i class="mdc-select__dropdown-icon"></i>
                                             <div class="mdc-select__selected-text"></div>
                                             <div class="mdc-select__menu mdc-menu-surface demo-width-class">
                                                 <ul class="mdc-list">
-                                                    {{--<li class="mdc-list-item mdc-list-item--selected" data-value="" aria-selected="true">
-                                                    </li>--}}
                                                     @if(isset($cat_arr['category']))
                                                         @foreach(array_values($cat_arr['category']) as $k => $cp)
                                                             @if($cp->id == $item->category_parent)
@@ -272,9 +344,6 @@
                                                                     {{ $cp->name }}
                                                                 </li>
                                                             @endif
-                                                            {{--<li class="mdc-list-item" data-value="{{ $item->id }}">
-                                                                {{ $item->name }}
-                                                            </li>--}}
                                                         @endforeach
                                                     @endif
                                                 </ul>
@@ -287,7 +356,7 @@
                                             <p class="mdc-text-field-helper-text mdc-text-field-helper-text--persistent mdc-text-field-helper-text--validation-msg invalid-feedback" id="text-field-outlined-helper-text">{{ $message }}</p>
                                         </div>
                                         @enderror
-                                    </div>
+                                    </div>--}}
 
                                     <div class="mdc-layout-grid__cell stretch-card mdc-layout-grid__cell--span-6-desktop">
                                         <div class="mdc-form-field">

@@ -20,12 +20,16 @@ class CreateSuitFabricsTable extends Migration
             $table->string('fabric_image')->nullable();
             $table->string('display_image')->nullable();
             $table->string('large_image')->nullable();
-            $table->string('description')->nullable();
-            $table->string('price')->nullable();
+            $table->string('article_number')->nullable();
+            $table->string('composition')->nullable();
+            $table->string('weight')->nullable();
+            $table->string('fabric_type')->nullable();
+            $table->float('price')->nullable();
             $table->bigInteger('material_parent')->nullable();
             $table->bigInteger('pattern_parent')->nullable();
             $table->bigInteger('season_parent')->nullable();
             $table->bigInteger('color_parent')->nullable();
+            $table->bigInteger('collection_parent')->nullable();
             $table->bigInteger('category_parent')->nullable();
             $table->boolean('status')->default(1);
             $table->string('order_id')->nullable();

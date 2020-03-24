@@ -42,6 +42,21 @@ Route::prefix('admin')->middleware(['auth'])->group(function () {
     Route::post('/suits/categories/{cid}/sub-categories/{id}/update', '\Idib\Suits\Controllers\CategoryController@updateSubCategory')->name('admin.suits.categories.sub-categories.update');
     Route::get('/suits/categories/{cid}/sub-categories/{id}/delete', '\Idib\Suits\Controllers\CategoryController@deleteSubCategory')->name('admin.suits.categories.sub-categories.delete');
 
+    //styles
+    Route::get('/suits/jackets', '\Idib\Suits\Controllers\StyleController@listJacketStyles')->name('admin.suits.jackets');
+    Route::get('/suits/jackets/add', '\Idib\Suits\Controllers\StyleController@addJacketStyle')->name('admin.suits.jackets.add');
+    Route::post('/suits/jackets/store', '\Idib\Suits\Controllers\StyleController@storeJacketStyle')->name('admin.suits.jackets.store');
+    Route::get('/suits/jackets/{sid}/edit/{id}', '\Idib\Suits\Controllers\StyleController@editJacketStyle')->name('admin.suits.jackets.edit');
+    Route::post('/suits/jackets/{id}/update', '\Idib\Suits\Controllers\StyleController@updateJacketStyle')->name('admin.suits.jackets.update');
+
+    Route::get('/suits/jackets/{id}/styles', '\Idib\Suits\Controllers\StyleController@listJacketStyleAttributes')->name('admin.suits.jackets.style-attributes');
+
+    Route::get('/suits/pants', '\Idib\Suits\Controllers\StyleController@listPantStyles')->name('admin.suits.pants');
+    Route::get('/suits/pants/{id}/styles', '\Idib\Suits\Controllers\StyleController@listPantStyleAttributes')->name('admin.suits.pants.style-attributes');
+    Route::get('/suits/vests', '\Idib\Suits\Controllers\StyleController@listVestStyles')->name('admin.suits.vests');
+    Route::get('/suits/vests/{id}/styles', '\Idib\Suits\Controllers\StyleController@listVestStyleAttributes')->name('admin.suits.vests.style-attributes');
+
+    //fabrics
     Route::get('/suits/fabrics', '\Idib\Suits\Controllers\FabricController@index')->name('admin.suits.fabrics');
     Route::get('/suits/fabrics/add', '\Idib\Suits\Controllers\FabricController@addFabric')->name('admin.suits.fabrics.add');
     Route::post('/suits/fabrics/store', '\Idib\Suits\Controllers\FabricController@storeFabric')->name('admin.suits.fabrics.store');

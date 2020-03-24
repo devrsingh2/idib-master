@@ -23,6 +23,7 @@ class SuitApiController extends Controller
 
         $local_display_path = url('/')."/tool/images/display/suit";
         $local_large_path = url('/')."/tool/images/large/suit";
+        $allFabric = [];
         if (isset($getFabric)) {
             foreach ($getFabric as $key => $value) {
                 $getCategoryName = DB::table('suit_categories')
@@ -45,21 +46,26 @@ class SuitApiController extends Controller
                     ->first();
                 $fabric['id'] = $value->id;
                 $fabric['name'] = $value->name;
-                //$fabric['fabric_thumb'] = $local_fabric_path.'/'.$value->fabric_image;
-                $fabric['img'] = $local_display_path.'/'.$value->display_image;
-                $fabric['large_thumb'] = $local_large_path.'/'.$value->large_image;
+                $fabric['type'] = $value->fabric_type;
                 $fabric['price'] = $value->price;
+                $fabric['article_number'] = $value->article_number;
+                $fabric['composition'] = $value->composition;
+                $fabric['weight'] = $value->weight;
+                //$fabric['fabric_thumb'] = $local_fabric_path.'/'.$value->fabric_image;
+                $fabric['fabric_360'] = $local_display_path.'/'.$value->display_image;
+                $fabric['fabric_1000'] = $local_large_path.'/'.$value->large_image;
                 $fabric['material_parent'] = isset($materialParent) ? $materialParent->name : '';
                 $fabric['pattern_parent'] = isset($patternParent) ? $patternParent->name : '';
-                $fabric['season_parent'] = isset($seasonParent) ? $seasonParent->name : '';
+//                $fabric['season_parent'] = isset($seasonParent) ? $seasonParent->name : '';
                 $fabric['color_parent'] = isset($colorParent) ? $colorParent->name : '';
-                $fabric['category_parent'] = isset($categoryParent) ? $categoryParent->name : '';
-                $fabric['type'] = isset($getCategoryName[0]) ? $getCategoryName[0]->name : '';
-                $AllFabric[] = $fabric;
+//                $fabric['category_parent'] = isset($categoryParent) ? $categoryParent->name : '';
+                $fabric['collection_parent'] = isset($categoryParent) ? $categoryParent->name : '';
+                $fabric['parent'] = 'fabric';
+                $allFabric[] = $fabric;
             }
         } else {
             $fabric['Data'] = "Data not available for this product!";
-            $AllFabric[] = $fabric;
+            $allFabric[] = $fabric;
         }
 
         $getStaticCategory = DB::table('suit_categories')
@@ -81,7 +87,8 @@ class SuitApiController extends Controller
                 if (isset($item)) {
                     foreach ($item as $key => $sc) {
                         $allCategory[$k][$key] = [
-                            'id' => $sc['id'],
+//                            'id' => $sc['id'],
+                            'id' => $key + 1,
                             'name' => $sc['name'],
                             'parent' => $sc['parent']->seo_url,
                         ];
@@ -90,7 +97,7 @@ class SuitApiController extends Controller
             }
         }
         $fabric_data = array();
-        $fabric_data = ["fabric" => $AllFabric, "category" => $allCategory];
+        $fabric_data = ["fabric" => $allFabric, "category" => $allCategory];
 
         return response()->json($fabric_data);
 
@@ -120,7 +127,7 @@ class SuitApiController extends Controller
                           'designRel' => $item->name,
                           'name' => $attr->name,
                           'price' => $attr->price,
-                          'class' => '',
+                          'class' => $attr->class_name,
                           'status' => $attr->status,
                           'fabric_360' => $attr->image,
                         ];
@@ -132,8 +139,8 @@ class SuitApiController extends Controller
                 $accent['class'] = $item->class_name;
                 $accent['designType'] = 'jacket';
                 $accent['price'] = $item->price;
-                $accent['img'] = '';
-                $accent['style'] = $getAccentTypeJson;
+                $accent['fabric_360'] = '';
+                $accent['styles'] = $getAccentTypeJson;
                 $AllAccent[] = $accent;
             }
         }

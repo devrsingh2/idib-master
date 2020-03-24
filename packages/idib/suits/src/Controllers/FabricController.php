@@ -39,22 +39,32 @@ class FabricController extends Controller
         $request->validate(
             [
                 'fabric_name' => 'required',
+                'fabric_type' => 'required',
                 'fabric_price' => 'required',
-                'fabric_thumb' => 'required',
+                'fabric_weight' => 'required',
+                'fabric_thumb' => 'required|dimensions:width=100,height=100',
+                'medium_thumb' => 'required|dimensions:width=360,height=360',
+                'large_thumb_image' => 'required|dimensions:width=1000,height=1000',
+                /*'fabric_thumb' => 'required',
                 'medium_thumb' => 'required',
-                'large_thumb_image' => 'required',
+                'large_thumb_image' => 'required',*/
+                'composition' => 'required',
                 'material_parent' => 'required',
                 'pattern_parent' => 'required',
-                'season_parent' => 'required',
                 'color_parent' => 'required',
-                'category_parent' => 'required',
+                'collection_parent' => 'required',
+                /*'season_parent' => 'required',
+                'category_parent' => 'required',*/
             ],
             [
                 'fabric_name.required' => 'Please enter fabric name',
+                'fabric_type.required' => 'Please enter fabric type',
                 'fabric_price.required' => 'Please enter fabric price',
+                'fabric_weight.required' => 'Please enter fabric weight',
                 'fabric_thumb.required' => 'Please select fabric thumb image',
                 'medium_thumb.required' => 'Please select medium thumb image',
-                'large_thumb_image.required' => 'Please select large thumb image'
+                'large_thumb_image.required' => 'Please select large thumb image',
+                'composition.required' => 'Please enter composition',
             ]
         );
         if(($file = $request->hasFile('fabric_thumb')) && ($file = $request->hasFile('medium_thumb')) && ($file = $request->hasFile('large_thumb_image'))) {
@@ -76,17 +86,22 @@ class FabricController extends Controller
         }
         $fabric = new SuitFabric();
         $fabric->product_id = 1;
+        $fabric->article_number = 'IDIB-'.$request->fabric_name;
         $fabric->name = $request->fabric_name;
-        $fabric->description = isset($request->description) ? $request->description : '';
+        $fabric->fabric_type = $request->fabric_type;
+//        $fabric->description = isset($request->description) ? $request->description : '';
         $fabric->fabric_image = $fileName;
         $fabric->display_image = $fileName_thumb;
         $fabric->large_image = $fileName_large_thumb;
         $fabric->price = $request->fabric_price;
+        $fabric->weight = $request->fabric_weight;
+        $fabric->composition = $request->composition;
         $fabric->material_parent = $request->material_parent;
         $fabric->pattern_parent = $request->pattern_parent;
-        $fabric->season_parent = $request->season_parent;
+//        $fabric->season_parent = $request->season_parent;
         $fabric->color_parent = $request->color_parent;
-        $fabric->category_parent = $request->category_parent;
+        $fabric->collection_parent = $request->collection_parent;
+//        $fabric->category_parent = $request->category_parent;
         $fabric->status = false;
         if ($request->status) {
             $fabric->status = true;
@@ -122,11 +137,15 @@ class FabricController extends Controller
             [
                 'fabric_name' => 'required',
                 'fabric_price' => 'required',
+                'fabric_thumb' => 'dimensions:width=100,height=100',
+                'medium_thumb' => 'dimensions:width=360,height=360',
+                'large_thumb_image' => 'dimensions:width=1000,height=1000',
                 'material_parent' => 'required',
                 'pattern_parent' => 'required',
-                'season_parent' => 'required',
+//                'season_parent' => 'required',
                 'color_parent' => 'required',
-                'category_parent' => 'required',
+                'collection_parent' => 'required',
+//                'category_parent' => 'required',
             ],
             [
                 'fabric_name.required' => 'Please enter fabric name',
@@ -163,16 +182,20 @@ class FabricController extends Controller
 
         $fabric = SuitFabric::find($id);
         $fabric->name = $request->fabric_name;
-        $fabric->description = isset($request->description) ? $request->description : '';
+        $fabric->fabric_type = $request->fabric_type;
+//        $fabric->description = isset($request->description) ? $request->description : '';
         $fabric->fabric_image = isset($fileName) ? $fileName : $fabric->fabric_image;
         $fabric->display_image = isset($fileName_thumb) ? $fileName_thumb : $fabric->display_image;
         $fabric->large_image = isset($fileName_large_thumb) ? $fileName_large_thumb : $fabric->large_image;
         $fabric->price = $request->fabric_price;
+        $fabric->weight = $request->fabric_weight;
+        $fabric->composition = $request->composition;
         $fabric->material_parent = $request->material_parent;
         $fabric->pattern_parent = $request->pattern_parent;
-        $fabric->season_parent = $request->season_parent;
+//        $fabric->season_parent = $request->season_parent;
         $fabric->color_parent = $request->color_parent;
-        $fabric->category_parent = $request->category_parent;
+        $fabric->collection_parent = $request->collection_parent;
+//        $fabric->category_parent = $request->category_parent;
         $fabric->status = false;
         if ($request->status) {
             $fabric->status = true;

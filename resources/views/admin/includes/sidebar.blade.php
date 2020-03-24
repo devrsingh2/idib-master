@@ -1,7 +1,7 @@
 <aside class="mdc-drawer mdc-drawer--dismissible mdc-drawer--open">
     <div class="mdc-drawer__header">
         <a href="{{ url('/') }}/admin" class="brand-logo">
-            <img src="{{ asset('website-assets/images/logo.svg') }}" alt="logo">
+            <img src="{{ asset('images/logo.png') }}" height="60" alt="logo">
         </a>
     </div>
     <div class="mdc-drawer__content">
@@ -17,12 +17,12 @@
                         Dashboard
                     </a>
                 </div>
-                <div class="mdc-list-item mdc-drawer-item">
+                {{--<div class="mdc-list-item mdc-drawer-item">
                     <a class="mdc-drawer-link" href="{{ route('admin.products') }}">
                         <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">pages</i>
                         Products
                     </a>
-                </div>
+                </div>--}}
                 <div class="mdc-list-item mdc-drawer-item">
                     <a class="mdc-drawer-link" href="{{ route('admin.orders') }}">
                         <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">track_changes</i>
@@ -46,16 +46,39 @@
                     </div>
                 </div>--}}
                 <div class="mdc-list-item mdc-drawer-item">
-                    <a class="mdc-expansion-panel-link" href="#" data-toggle="expansionPanel" data-target="ui-sub-menu">
+                    <a class="mdc-expansion-panel-link @if(
+                    request()->segment(3) === 'jackets' ||
+                    request()->segment(3) === 'pants' ||
+                    request()->segment(3) === 'vests'
+                    ) expanded @endif" href="#" data-toggle="expansionPanel" data-target="ui-sub-menu">
                         <i class="material-icons mdc-list-item__start-detail mdc-drawer-item-icon" aria-hidden="true">dashboard</i>
                         Suit
                         <i class="mdc-drawer-arrow material-icons">chevron_right</i>
                     </a>
-                    <div class="mdc-expansion-panel" id="ui-sub-menu">
+                    <div class="mdc-expansion-panel" id="ui-sub-menu" @if(
+                    request()->segment(3) === 'jackets' ||
+                    request()->segment(3) === 'pants' ||
+                    request()->segment(3) === 'vests'
+                    ) style="display: block;" @endif>
                         <nav class="mdc-list mdc-drawer-submenu">
                             <div class="mdc-list-item mdc-drawer-item">
                                 <a class="mdc-drawer-link" href="{{ route('admin.suits.categories') }}">
                                     Categories
+                                </a>
+                            </div>
+                            <div class="mdc-list-item mdc-drawer-item">
+                                <a class="mdc-drawer-link @if(request()->segment(3) === 'jackets') active @endif" href="{{ route('admin.suits.jackets') }}">
+                                    Jackets
+                                </a>
+                            </div>
+                            <div class="mdc-list-item mdc-drawer-item">
+                                <a class="mdc-drawer-link @if(request()->segment(3) === 'pants') active @endif" href="{{ route('admin.suits.pants') }}">
+                                    Pant
+                                </a>
+                            </div>
+                            <div class="mdc-list-item mdc-drawer-item">
+                                <a class="mdc-drawer-link @if(request()->segment(3) === 'vests') active @endif" href="{{ route('admin.suits.vests') }}">
+                                    Vest
                                 </a>
                             </div>
                             <div class="mdc-list-item mdc-drawer-item">
